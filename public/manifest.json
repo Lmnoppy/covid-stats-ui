@@ -1,0 +1,10 @@
+{
+  "short_name": "Octo Broccoli",
+  "name": "octo-broccoli-react-ui",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#22272e"
+}

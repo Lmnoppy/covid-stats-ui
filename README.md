@@ -1,19 +1,79 @@
 # octo-broccoli-react-ui
-Currently learning front end devleopment so decided to build a simple user management ui. That means this its not secure code in anyways shape or form, please only use this as i have, a learning opertunity. 
+Currently, learning front end development so decided to build a simple user management ui and back end. That means this code is not secure 
+code in any way shape or form, please do not use deploy this code as it stands. 
 
-The back end is powered by either octo-broccoli Java or Express Firebase functions (i wanted to learen firebase functions) so the Java version isnt actually working well as it has no user auth currently. 
+Built with:
+React
+Bootstrap
 
-https://github.com/Lmnoppy/octo-broccoli-java 
+## Requirements
+NPM and a working back end either octo-broccoli Java or Express Firebase functions (Express version is tbd) will work, but you can plug your own in if you like.
 
-https://github.com/Lmnoppy/octo-broccoli-express-firebase 
+https://github.com/Lmnoppy/octo-broccoli-java
+
+https://github.com/Lmnoppy/octo-broccoli-express-firebase
 
 ## Guides
-Built with: 
-React 
-Bootstrap 
-
-### Requirments 
 
 ### Start locally 
+
+### Rest calls
+
+### #User Sign up
+Method: POST
+API: /api/signUp
+
+Body:
+
+Required
+```json
+{
+  "email": "",
+  "password": "",
+  "confirmPassword": ""
+}
+```
+
+Optional
+```json
+{
+  "userName": "",
+  "twitchId": "",
+  "youtubeId": "",
+  "twitterId": "",
+  "githubId": "",
+}
+```
+
+Response:
+
+```json
+{
+  "token": "",
+  "user": {}
+}
+```
+
+#### User login
+Method: POST
+API: /api/login
+
+Body:
+
+```json
+{
+  "email": "", 
+  "password": ""
+}
+```
+
+Response:
+
+```json
+{
+  "token": "",
+  "user": {}
+}
+```
 
 ### Helpful commands 
