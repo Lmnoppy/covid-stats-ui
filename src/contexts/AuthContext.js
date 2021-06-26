@@ -1,58 +1,76 @@
-import React, { useContext, useState } from "react"
+import React, {useContext, useState} from "react";
+import axios from "axios";
+import {axiosHeaders, url} from "../utils/AxiosConfig";
 
-const AuthContext = React.createContext()
+const AuthContext = React.createContext(null)
 
 export function useAuth() {
     return useContext(AuthContext)
 }
 
-const developmentUser = {
-    credentials: {
-        userId: 'abc',
-        userName: 'userName',
-        password: '',
-        email: 'user@email.com',
-        isActive: true,
-        createdAt: '2020-11-22T11:08:02.805Z',
-        imageUrl: 'image/dsfsdkfghskdfgs/dgfdhfgdh',
-        lastLoggedIn:'2020-11-22T11:08:02.805Z',
-        token:'abc'
-    },
-    userInfo: {
-        firstName:'firstName',
-        lastName:'lastName',
-        bio: 'Hello, my name is user, nice to meet you',
-        website: 'website',
-        youtubeId: 'website',
-        twitchId: 'website',
-        twitterId: 'website',
-        discordId: 'website',
-        location: 'Glasgow, UK',
-    },
-    userStats: {
-    }
-}
+export default function AuthProvider({children}) {
+    const [currentUser, setCurrentUser] = useState({})
+    const [loading, setLoading] = useState(false)
+    const [authError, setAuthError] = useState([])
 
-export function AuthProvider({ children }) {
-    const [currentUser, setCurrentUser] = useState()
-    const [loading, setLoading] = useState(true)
-
-    function signup(email, password) {
-        setCurrentUser(developmentUser)
-        setLoading(false)
-        return currentUser;
+    function signup(userDetails) {
+        setAuthError([])
+        return axios.post(url + '/signUp', userDetails)
+            .then(response => {
+                return (response.data)
+            }).then((data) => {
+                setAuthError([]);
+                setCurrentUser(data);
+                setLoading(false);
+            }).catch((err) => {
+                setCurrentUser({});
+                setAuthError(err.response.data);
+                setLoading(false);
+            });
     }
 
-    function login(email, password) {
-        setCurrentUser(developmentUser)
-        setLoading(false)
-        return currentUser;
+    async function login(userDetails) {
+        setAuthError([])
+        let user = {};
+        const token = await axios.post(url + '/login', userDetails)
+            .then(response => {
+                return (response.data)
+            }).catch((err) => {
+                console.log(err);
+                setCurrentUser({});
+                setAuthError(err.response.data);
+                console.log(authError);
+            });
+        if (token && token.token){
+            console.log("token was found, getting user details")
+            await axios.get(url + '/getAuthenticatedUser', axiosHeaders(token.token))
+                .then((response) => {
+                    setAuthError([]);
+                    user = {
+                        credentials: response.data.credentials,
+                        token: token.token,
+                        userInfo: response.data.userInfo,
+                        userStats: response.data.userStats
+                    };
+                }).catch((err) => {
+                    console.log(err);
+                    setCurrentUser({});
+                    setAuthError(err.response.data);
+                });
+            if (user && user.token) {
+                console.log("user details received", user )
+                setCurrentUser(user);
+                console.log("logged in as...", currentUser)
+            }
+        } else console.log("an error has occurred");
     }
 
     const value = {
         currentUser,
         login,
-        signup
+        authError,
+        loading,
+        signup,
     }
 
     return (

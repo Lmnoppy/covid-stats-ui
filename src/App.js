@@ -3,12 +3,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-// Firebase.
-import 'firebase/auth';
-
 //App
 import Login from "./components/Login";
-import {AuthProvider} from "./contexts/AuthContext";
+import AuthProvider from "./contexts/AuthContext";
 import PrivateRoute from "./utils/PrivateRoute";
 import Signup from "./components/Signup";
 import Dashboard from "./components/Dashboard";
@@ -20,7 +17,7 @@ function App() {
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
           <div className="container">
-            <Link className="navbar-brand" to={"/login"}>firebase-login-screen</Link>
+            <Link className="navbar-brand" to={"/login"}>Octo Broccoli</Link>
             <div className="collapse navbar-collapse" id="navbar01">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
