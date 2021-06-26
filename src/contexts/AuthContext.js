@@ -1,5 +1,4 @@
 import React, { useContext, useState, useEffect } from "react"
-import {auth} from "../firebase";
 
 const AuthContext = React.createContext()
 
@@ -7,32 +6,43 @@ export function useAuth() {
     return useContext(AuthContext)
 }
 
+const developmentUser = {
+    credentials: {
+        userId: 'abc',
+        userName: 'userName',
+        password: '',
+        email: 'user@email.com',
+        isActive: true,
+        createdAt: '2020-11-22T11:08:02.805Z',
+        imageUrl: 'image/dsfsdkfghskdfgs/dgfdhfgdh',
+        lastLoggedIn:'2020-11-22T11:08:02.805Z',
+        token:'abc'
+    },
+    userInfo: {
+        firstName:'firstName',
+        lastName:'lastName',
+        bio: 'Hello, my name is user, nice to meet you',
+        website: 'website',
+        youtubeId: 'website',
+        twitchId: 'website',
+        twitterId: 'website',
+        discordId: 'website',
+        location: 'Glasgow, UK',
+    },
+    userStats: {
+    }
+}
+
 export function AuthProvider({ children }) {
     const [currentUser, setCurrentUser] = useState()
     const [loading, setLoading] = useState(true)
 
     function signup(email, password) {
-        return auth.createUserWithEmailAndPassword(email, password)
+        return developmentUser;
     }
 
     function login(email, password) {
-        return auth.signInWithEmailAndPassword(email, password)
-    }
-
-    function logout() {
-        return auth.signOut()
-    }
-
-    function resetPassword(email) {
-        return auth.sendPasswordResetEmail(email)
-    }
-
-    function updateEmail(email) {
-        return auth.currentUser.updateEmail(email)
-    }
-
-    function updatePassword(password) {
-        return auth.currentUser.updatePassword(password)
+        return developmentUser;
     }
 
     useEffect(() => {
@@ -47,11 +57,7 @@ export function AuthProvider({ children }) {
     const value = {
         currentUser,
         login,
-        signup,
-        logout,
-        resetPassword,
-        updateEmail,
-        updatePassword
+        signup
     }
 
     return (

@@ -34,17 +34,6 @@ Required
 }
 ```
 
-Optional
-```json
-{
-  "userName": "",
-  "twitchId": "",
-  "youtubeId": "",
-  "twitterId": "",
-  "githubId": "",
-}
-```
-
 Response:
 
 ```json
