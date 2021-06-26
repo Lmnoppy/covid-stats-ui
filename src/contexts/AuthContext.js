@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react"
+import React, { useContext, useState } from "react"
 
 const AuthContext = React.createContext()
 
@@ -38,21 +38,16 @@ export function AuthProvider({ children }) {
     const [loading, setLoading] = useState(true)
 
     function signup(email, password) {
-        return developmentUser;
+        setCurrentUser(developmentUser)
+        setLoading(false)
+        return currentUser;
     }
 
     function login(email, password) {
-        return developmentUser;
+        setCurrentUser(developmentUser)
+        setLoading(false)
+        return currentUser;
     }
-
-    useEffect(() => {
-        const unsubscribe = auth.onAuthStateChanged(user => {
-            setCurrentUser(user)
-            setLoading(false)
-        })
-
-        return unsubscribe
-    }, [])
 
     const value = {
         currentUser,
