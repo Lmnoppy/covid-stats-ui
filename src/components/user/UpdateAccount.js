@@ -1,7 +1,7 @@
 import React, {useRef, useState} from "react"
 import {Form, Button, Alert} from "react-bootstrap"
 import {useAuth} from "../../contexts/AuthContext"
-import {Link, useHistory} from "react-router-dom"
+import {Link, useNavigate } from "react-router-dom"
 
 export default function UpdateAccount() {
     const emailRef = useRef()
@@ -10,7 +10,7 @@ export default function UpdateAccount() {
     const {currentUser, updatePassword, updateEmail} = useAuth()
     const [error, setError] = useState("")
     const [loading, setLoading] = useState(false)
-    const history = useHistory()
+    const history = useNavigate();
 
     function handleSubmit(e) {
         e.preventDefault()

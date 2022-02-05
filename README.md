@@ -1,9 +1,8 @@
 # octo-broccoli-ui
-Currently, learning front end development so decided to build a simple user management ui and back end. That means this code is not secure 
-code in any way shape or form, please do not use deploy this code as it stands. 
+Currently, learning front end development so decided to build a simple user management ui and back end. That means this code is unlikly to be secure code in any way shape or form, please do not use deploy this code without a security review. 
 
 Built with:
-nextJs12
+React
 
 ## Requirements
 NPM and a working back end either octo-broccoli Java or Express Firebase functions (Express version is tbd) will work, but you can plug your own in if you like.
@@ -15,11 +14,19 @@ https://github.com/Lmnoppy/octo-broccoli-express-firebase
 
 ## Guides
 
+### React router version 6
+private routes: https://dev.to/iamandrewluca/private-route-in-react-router-v6-lg5 
+
+
 ### Start locally 
+
+```bash
+npm install
+```
 
 ### Rest calls
 
-### #User Sign up
+#### User Sign up
 Method: POST
 API: /api/signUp
 
@@ -66,3 +73,11 @@ Response:
 ```
 
 ### Helpful commands 
+
+
+```bash
+npm install -g npm-check-updates
+ncu -u
+npm install
+
+```

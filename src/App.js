@@ -1,7 +1,7 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 
 //App
 import Login from "./components/user/Login";
@@ -16,7 +16,8 @@ import HealthCheck from "./components/health/HealthCheck";
 import Home from "./pages/Home";
 
 function App() {
-    return (<Router>
+    return (
+        <BrowserRouter>
             <div className="App">
                 <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
                     <div className="container">
@@ -30,7 +31,7 @@ function App() {
                                     <Link className="nav-link" to="/signup">Sign up</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/">My Profile</Link>
+                                    <Link className="nav-link" to="/my-profile">My Profile</Link>
                                 </li>
                             </ul>
                         </div>
@@ -38,23 +39,29 @@ function App() {
                 </nav>
 
                 <AuthProvider>
-                    <Switch>
-                        <Route exact path="/" component={Home}/>
-                        <Route path="/blogList" component={BlogList}/>
-                        <Route path="/health" component={HealthCheck}/>
+                    <Routes>
+                        <Route path="/" element={<Home />}/>
+                        <Route path="/blogList" element={<BlogList />}/>
+                        <Route path="/health" element={<HealthCheck />}/>
 
-                        <Route path="/signup" component={Signup}/>
-                        <Route path="/login" component={Login}/>
-                        <Route path="/forgot-password" component={ForgotPassword}/>
+                        <Route path="/signup" element={<Signup />}/>
+                        <Route path="/login" element={<Login />}/>
+                        <Route path="/forgot-password" element={<ForgotPassword />}/>
 
-                        <PrivateRoute path="/dashboard" component={Dashboard}/>
-                        <PrivateRoute path="/my-profile" component={UpdateAccount}/>
-                        <PrivateRoute path="/update-account" component={UpdateAccount}/>
-                    </Switch>
+                        <Route path="/dashboard" element={<PrivateRoute />}>
+                            <Route path="" element={<Dashboard />} />
+                        </Route>
+                        <Route path="/my-profile" element={<PrivateRoute />}>
+                            <Route path="" element={<UpdateAccount />} />
+                        </Route>
+                        <Route path="/update-account" element={<PrivateRoute />}>
+                            <Route path="" element={<UpdateAccount />} />
+                        </Route>
+                    </Routes>
                 </AuthProvider>
 
             </div>
-        </Router>
+        </BrowserRouter>    
     );
 }
 
