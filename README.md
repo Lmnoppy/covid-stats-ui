@@ -35,18 +35,16 @@ npm install
 
 ### Rest calls
 
-#### User Sign up
+#### Get Overview
 Method: POST
-API: /api/signUp
+API: /api/covid/overview
 
 Body:
 
-Required
 ```json
 {
-  "email": "",
-  "password": "",
-  "confirmPassword": ""
+  "": "", 
+  "": ""
 }
 ```
 
@@ -54,29 +52,7 @@ Response:
 
 ```json
 {
-  "token": "",
-  "user": {}
-}
-```
-
-#### User login
-Method: POST
-API: /api/login
-
-Body:
-
-```json
-{
-  "email": "", 
-  "password": ""
-}
-```
-
-Response:
-
-```json
-{
-  "token": "",
-  "user": {}
+  "": "",
+  "": {}
 }
 ```
