@@ -13,8 +13,8 @@ https://github.com/Lmnoppy/octo-broccoli-java
 
 ## Guides
 
-### React router version 6
-private routes: https://dev.to/iamandrewluca/private-route-in-react-router-v6-lg5 
+React router version 6: https://dev.to/iamandrewluca/private-route-in-react-router-v6-lg5 
+Bootstrap in NextJs: https://www.kindacode.com/article/how-to-correctly-use-bootstrap-5-in-next-js
 
 ### Start locally 
 
@@ -25,12 +25,18 @@ npm start
 
 ### Helpful commands 
 
-
 ```bash
 npm install -g npm-check-updates
 ncu -u
 npm install
 
+```
+
+#### Create app from scratch commands
+
+```bash
+npx create-next-app covid-stats-app
+npm i bootstrap
 ```
 
 ### Rest calls
