@@ -12,23 +12,22 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <NavBar />
-    <div class="container">
-      <div class="row">
-        <div class="col">
+    <div className="container">
+      <div className="row">
+        <div className="col">
           1 of 1
         </div>
       </div>
-    <div class="row">
-      <div class="col-11">
-        <div class="card">
-          <div class="card-body">
+    <div className="row">
+      <div className="col-11">
+        <div className="card">
+          <div className="card-body">
             <Component {...pageProps} />
           </div>
         </div>
       </div>
   </div>
 </div>
-
    
     </>
   )
