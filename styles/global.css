@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background: #845ec2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #282a36, #282a36, #282a36, #282a36, #282a36, #282a36);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #282a36, #282a36, #282a36, #282a36, #282a36, #282a36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
