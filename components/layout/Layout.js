@@ -2,10 +2,9 @@ import Head from 'next/head'
 import SideBar from './nav/sidebar/SideBar'
 import TopBar from './nav/topbar/topBar'
 
-const name = 'Gary'
-export const siteTitle = name + '\'s Micro Blog'
+export const siteTitle = "Covid UI"
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
     return (
         <div className="">
             <Head>
@@ -27,9 +26,9 @@ export default function Layout({ children, home }) {
                 <SideBar />
             </div>            
             <div >
-                <TopBar />
+                <TopBar siteTitle={siteTitle} />
             </div>
-            <main className='content-container aspect-square'>
+            <main className='content-container'>
                 {children}
             </main>
 

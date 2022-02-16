@@ -15,13 +15,7 @@ export default function SideBar() {
             </div>
             
             <Divider />
-            <SideBarIcon icon={<SiTwitter size="20" />} text={'💡 tooltip: Covid UI Twiter feed '} />
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid UI Github'}/>
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid UI Github'}/>
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid UI Github'}/>
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid UI Github'}/>
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid UI Github'}/>
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid UI Github'}/>
+            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid Grid'}/>
 
             <div className={"absolute bottom-0 inset-x-0"}>
             <Divider />

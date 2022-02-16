@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @layer components {
+
     .sidebar-icon {
       @apply relative flex items-center justify-center 
       h-12 w-12 mt-2 mb-2 mx-auto  
@@ -21,14 +30,13 @@
     }
   
     .sidebar-hr {
-      @apply bg-gray-200 dark:bg-gray-800 
-      border border-gray-800 rounded-full
+      @apply bg-gray-800 border border-gray-800 rounded-full
       mx-2;
     }
 
     .top-navigation {
       @apply flex flex-row items-center justify-evenly 
-      bg-white bg-opacity-90 
+      bg-gray-50
       w-full h-16 
       m-0 
       shadow-lg;
@@ -59,9 +67,13 @@
   
     .content-container {
       @apply flex flex-col 
-      bg-white
-      m-0 
+      m-0
+      bg-gray-50
       h-full w-full 
       overflow-hidden;
+    }
+
+    .content-divs {
+      @apply ml-20 mr-5 mt-5 mb-5 bg-white;
     }
 }
