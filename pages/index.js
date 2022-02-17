@@ -10,8 +10,9 @@ export default function Home({ allPostsData }) {
       </Head>
       <div className='content-divs'>
 
-        <div class="grid grid-rows-4 grid-flow-col gap-4">
+        <div className="grid grid-rows-4 grid-flow-col gap-4">
           <div className="border border-amber-500">Welcome message about seeking actual medical advice and not, from you know a website thats made by a moron. </div>
+          <div className="border border-amber-500">high level stats for UK </div>
           <div className="border border-amber-500">
 
             <div className=" border border-red-500 grid grid-cols-4 gap-4">

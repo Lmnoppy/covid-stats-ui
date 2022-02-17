@@ -1,4 +1,4 @@
-import { MdSettings, MdOutlineHealthAndSafety, MdHelpOutline } from 'react-icons/md';
+import { MdSettings, MdOutlineHealthAndSafety, MdHelp, MdMenuBook, MdQueryStats } from 'react-icons/md';
 import { SiTwitter, SiGithub } from 'react-icons/si';
 import SideBarIcon from "./SideBarIcon";
 
@@ -15,11 +15,10 @@ export default function SideBar() {
             </div>
             
             <Divider />
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid Grid'}/>
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid Grid'}/>
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid Grid'}/>
-            <SideBarIcon icon={<SiGithub size="20" />} text={'💡 tooltip: Covid Grid'}/>
-            <SideBarIcon icon={<MdHelpOutline size="32" />} text={'💡 tooltip: Help'}/>
+            <SideBarIcon icon={<MdQueryStats size="20" />} text={'💡 tooltip: Covid Grid'}/>
+            <SideBarIcon icon={<MdMenuBook size="20" />} text={'💡 tooltip: Covid Grid'}/>
+            <SideBarIcon icon={<MdMenuBook size="20" />} text={'💡 tooltip: Covid Grid'}/>
+            <SideBarIcon icon={<MdHelp size="20" />} text={'💡 tooltip: Help'}/>
 
             <div className={"absolute bottom-0 inset-x-0"}>
             <Divider />
