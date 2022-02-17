@@ -35,7 +35,8 @@
     }
 
     .top-navigation {
-      @apply flex flex-row items-center justify-evenly 
+      @apply flex  items-center justify-evenly 
+      rounded-full
       bg-gray-50
       w-full h-16 
       m-0 
@@ -46,7 +47,7 @@
       @apply text-gray-500
       mr-3 ml-4
       transition duration-300 ease-in-out 
-      hover:text-pink-400 
+      hover:text-teal-400 
       cursor-pointer;
     }
   
@@ -66,14 +67,15 @@
     }
   
     .content-container {
-      @apply flex flex-col 
-      m-0
-      bg-gray-50
-      h-full w-full 
+      @apply  flex flex-col 
+      m-0 p-0
+      bg-gray-100
+      w-screen
+      h-screen
       overflow-hidden;
     }
 
     .content-divs {
-      @apply ml-20 mr-5 mt-5 mb-5 bg-white;
+      @apply   mr-7 ml-20 mt-5 mb-5 bg-white;
     }
 }

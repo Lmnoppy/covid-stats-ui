@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
             </div>
 
           </div>
-          <div className="border border-amber-500">
+          <div className="border border-amber-500 ">
             Line graph Overview of UK
           </div>
         </div>
