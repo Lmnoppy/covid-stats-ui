@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+
+    .sidebar-icon {
+      @apply relative flex items-center justify-center 
+      h-12 w-12 mt-2 mb-2 mx-auto  
+    hover:bg-teal-700 bg-gray-800
+    text-teal-100 hover:text-white
+      hover:rounded-xl rounded-3xl
+      transition-all duration-300 ease-linear
+      cursor-pointer shadow-lg ;
+    }
+  
+    .sidebar-tooltip {
+      @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
+      text-white bg-gray-900 
+      text-xs font-bold 
+      transition-all duration-100 scale-0 origin-left;
+    }
+  
+    .sidebar-hr {
+      @apply bg-gray-800 border border-gray-800 rounded-full
+      mx-2;
+    }
+
+    .top-navigation {
+      @apply flex  items-center justify-evenly 
+      rounded-full
+      bg-gray-50
+      w-full h-16 
+      m-0 
+      shadow-lg;
+    }
+
+    .top-navigation-icon {
+      @apply text-gray-500
+      mr-3 ml-4
+      transition duration-300 ease-in-out 
+      hover:text-teal-400 
+      cursor-pointer;
+    }
+  
+    .top-navigation-icon:first {
+      @apply ml-auto mr-4;
+    }
+  
+    .title-hashtag {
+      @apply text-lg tracking-wider font-semibold text-gray-500 
+      ml-20 my-auto;
+    }
+  
+    .title-text {
+      @apply text-xl text-gray-500 tracking-wider font-semibold text-opacity-80 
+      mr-auto ml-2 my-auto 
+      transition duration-300 ease-in-out;
+    }
+  
+    .content-container {
+      @apply  flex flex-col 
+      m-0 p-0
+      bg-gray-100
+      w-screen
+      h-screen
+      overflow-hidden;
+    }
+
+    .content-divs {
+      @apply   mr-7 ml-20 mt-5 mb-5 bg-white;
+    }
+}
