@@ -1,14 +1,11 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout/Layout'
-import { getSortedPostsData } from '../lib/posts'
+import LineGraph from '../components/charts/line/largeOverview/lineGraph'
+import Layout from '../components/layout/Layout'
+import { fakeData } from '../components/utils/Global';
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, result }) {
   return (
     <Layout>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <div className='content-divs'>
+      <div className='content-divs overscroll-contain'>
 
         <div className="grid grid-rows-4 grid-flow-col gap-4">
           <div className="border border-amber-500">Welcome message about seeking actual medical advice and not, from you know a website thats made by a moron. </div>
@@ -24,7 +21,7 @@ export default function Home({ allPostsData }) {
 
           </div>
           <div className="border border-amber-500 ">
-            Line graph Overview of UK
+            <LineGraph data={result} tooltipText={"ONS Death stats"}/>
           </div>
         </div>
 
@@ -35,12 +32,17 @@ export default function Home({ allPostsData }) {
   )
 }
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
+export async function getStaticProps(context) {
+    try {
+        //const res = await fetch(`https://coronavirus.data.gov.uk/api/v2/data?areaType=overview&release=2022-02-17&metric=cumDailyNsoDeathsByDeathDate&format=json`
+        //);
+        //const { body } = await res.json()
+        const result = fakeData;
+        return {
+            props: { result },
+        };
+    } catch (err) {
+        console.error(err);
     }
-  }
 }
 

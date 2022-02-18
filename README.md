@@ -7,6 +7,11 @@
 
 [React Icons](https://react-icons.github.io)
 
+    chart.js
+    react-chartjs-2
+
+[Chart.js]()
+
 ## How to run locally 
 
 Clone and cd into the projects root directory run the yarn install command

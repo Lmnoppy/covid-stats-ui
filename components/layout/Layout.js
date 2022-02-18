@@ -5,8 +5,9 @@ import TopBar from './nav/topbar/topBar'
 export const siteTitle = "Covid UI"
 
 export default function Layout({ children }) {
+
     return (
-        <div className="">
+        <div className="content-container">
             <Head>
                 <link rel="icon" href="/favicon.ico" />
                 <meta
@@ -21,14 +22,16 @@ export default function Layout({ children }) {
                 />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
+
+                <title>{siteTitle}</title>
             </Head>
-            <div className='flex'>
+            <div>
                 <SideBar />
             </div>            
             <div >
                 <TopBar siteTitle={siteTitle} />
             </div>
-            <main className='content-container'>
+            <main >
                 {children}
             </main>
 

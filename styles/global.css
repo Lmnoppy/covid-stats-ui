@@ -14,10 +14,10 @@
 
     .sidebar-icon {
       @apply relative flex items-center justify-center 
-      h-12 w-12 mt-2 mb-2 mx-auto  
+      h-8 w-8 mt-2 mb-2 mx-auto  
     hover:bg-teal-700 bg-gray-800
     text-teal-100 hover:text-white
-      hover:rounded-xl rounded-3xl
+      hover:rounded-md rounded-md
       transition-all duration-300 ease-linear
       cursor-pointer shadow-lg ;
     }
@@ -30,13 +30,12 @@
     }
   
     .sidebar-hr {
-      @apply bg-gray-800 border border-gray-800 rounded-full
-      mx-2;
+      @apply bg-gray-800 border border-gray-800
+      mx-1;
     }
 
     .top-navigation {
       @apply flex  items-center justify-evenly 
-      rounded-full
       bg-gray-50
       w-full h-16 
       m-0 
@@ -67,15 +66,14 @@
     }
   
     .content-container {
-      @apply  flex flex-col 
-      m-0 p-0
-      bg-gray-100
+      @apply  
+      bg-gray-50
       w-screen
       h-screen
-      overflow-hidden;
+      overflow-visible;
     }
 
     .content-divs {
-      @apply   mr-7 ml-20 mt-5 mb-5 bg-white;
+      @apply   w-screen h-screen mr-5 ml-16 mt-5 mb-5 bg-white;
     }
 }
