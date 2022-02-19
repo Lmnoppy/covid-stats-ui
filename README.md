@@ -11,9 +11,6 @@
 
 [react-chartjs-2]()
 
-[Country Emoji](https://github.com/meeDamian/country-emoji)
-
-
 ## How to run locally 
 
 Clone and cd into the projects root directory run the yarn install command
