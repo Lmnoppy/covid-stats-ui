@@ -1,5163 +1,10029 @@
-export const fakeData = [
-   
+export const newDailyNsoDeathsByDeathDateUK = [
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-02-04",
-            "cumDailyNsoDeathsByDeathDate": 183502
+            "newDailyNsoDeathsByDeathDate": 83
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-02-03",
-            "cumDailyNsoDeathsByDeathDate": 183419
+            "newDailyNsoDeathsByDeathDate": 119
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-02-02",
-            "cumDailyNsoDeathsByDeathDate": 183300
+            "newDailyNsoDeathsByDeathDate": 131
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-02-01",
-            "cumDailyNsoDeathsByDeathDate": 183169
+            "newDailyNsoDeathsByDeathDate": 169
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-31",
-            "cumDailyNsoDeathsByDeathDate": 183000
+            "newDailyNsoDeathsByDeathDate": 175
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-30",
-            "cumDailyNsoDeathsByDeathDate": 182825
+            "newDailyNsoDeathsByDeathDate": 179
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-29",
-            "cumDailyNsoDeathsByDeathDate": 182646
+            "newDailyNsoDeathsByDeathDate": 166
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-28",
-            "cumDailyNsoDeathsByDeathDate": 182480
+            "newDailyNsoDeathsByDeathDate": 188
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-27",
-            "cumDailyNsoDeathsByDeathDate": 182292
+            "newDailyNsoDeathsByDeathDate": 197
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-26",
-            "cumDailyNsoDeathsByDeathDate": 182095
+            "newDailyNsoDeathsByDeathDate": 184
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-25",
-            "cumDailyNsoDeathsByDeathDate": 181911
+            "newDailyNsoDeathsByDeathDate": 178
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-24",
-            "cumDailyNsoDeathsByDeathDate": 181733
+            "newDailyNsoDeathsByDeathDate": 212
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-23",
-            "cumDailyNsoDeathsByDeathDate": 181521
+            "newDailyNsoDeathsByDeathDate": 205
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-22",
-            "cumDailyNsoDeathsByDeathDate": 181316
+            "newDailyNsoDeathsByDeathDate": 208
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-21",
-            "cumDailyNsoDeathsByDeathDate": 181108
+            "newDailyNsoDeathsByDeathDate": 235
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-20",
-            "cumDailyNsoDeathsByDeathDate": 180873
+            "newDailyNsoDeathsByDeathDate": 192
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-19",
-            "cumDailyNsoDeathsByDeathDate": 180681
+            "newDailyNsoDeathsByDeathDate": 208
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-18",
-            "cumDailyNsoDeathsByDeathDate": 180473
+            "newDailyNsoDeathsByDeathDate": 218
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-17",
-            "cumDailyNsoDeathsByDeathDate": 180255
+            "newDailyNsoDeathsByDeathDate": 223
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-16",
-            "cumDailyNsoDeathsByDeathDate": 180032
+            "newDailyNsoDeathsByDeathDate": 242
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-15",
-            "cumDailyNsoDeathsByDeathDate": 179790
+            "newDailyNsoDeathsByDeathDate": 243
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-14",
-            "cumDailyNsoDeathsByDeathDate": 179547
+            "newDailyNsoDeathsByDeathDate": 224
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-13",
-            "cumDailyNsoDeathsByDeathDate": 179323
+            "newDailyNsoDeathsByDeathDate": 231
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-12",
-            "cumDailyNsoDeathsByDeathDate": 179092
+            "newDailyNsoDeathsByDeathDate": 226
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-11",
-            "cumDailyNsoDeathsByDeathDate": 178866
+            "newDailyNsoDeathsByDeathDate": 223
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-10",
-            "cumDailyNsoDeathsByDeathDate": 178643
+            "newDailyNsoDeathsByDeathDate": 230
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-09",
-            "cumDailyNsoDeathsByDeathDate": 178413
+            "newDailyNsoDeathsByDeathDate": 231
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-08",
-            "cumDailyNsoDeathsByDeathDate": 178182
+            "newDailyNsoDeathsByDeathDate": 206
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-07",
-            "cumDailyNsoDeathsByDeathDate": 177976
+            "newDailyNsoDeathsByDeathDate": 216
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-06",
-            "cumDailyNsoDeathsByDeathDate": 177760
+            "newDailyNsoDeathsByDeathDate": 206
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-05",
-            "cumDailyNsoDeathsByDeathDate": 177554
+            "newDailyNsoDeathsByDeathDate": 165
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-04",
-            "cumDailyNsoDeathsByDeathDate": 177389
+            "newDailyNsoDeathsByDeathDate": 194
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-03",
-            "cumDailyNsoDeathsByDeathDate": 177195
+            "newDailyNsoDeathsByDeathDate": 170
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-02",
-            "cumDailyNsoDeathsByDeathDate": 177025
+            "newDailyNsoDeathsByDeathDate": 162
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2022-01-01",
-            "cumDailyNsoDeathsByDeathDate": 176863
+            "newDailyNsoDeathsByDeathDate": 164
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-31",
-            "cumDailyNsoDeathsByDeathDate": 176699
+            "newDailyNsoDeathsByDeathDate": 144
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-30",
-            "cumDailyNsoDeathsByDeathDate": 176555
+            "newDailyNsoDeathsByDeathDate": 168
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-29",
-            "cumDailyNsoDeathsByDeathDate": 176387
+            "newDailyNsoDeathsByDeathDate": 122
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-28",
-            "cumDailyNsoDeathsByDeathDate": 176265
+            "newDailyNsoDeathsByDeathDate": 151
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-27",
-            "cumDailyNsoDeathsByDeathDate": 176114
+            "newDailyNsoDeathsByDeathDate": 126
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-26",
-            "cumDailyNsoDeathsByDeathDate": 175988
+            "newDailyNsoDeathsByDeathDate": 113
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-25",
-            "cumDailyNsoDeathsByDeathDate": 175875
+            "newDailyNsoDeathsByDeathDate": 107
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-24",
-            "cumDailyNsoDeathsByDeathDate": 175768
+            "newDailyNsoDeathsByDeathDate": 114
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-23",
-            "cumDailyNsoDeathsByDeathDate": 175654
+            "newDailyNsoDeathsByDeathDate": 130
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-22",
-            "cumDailyNsoDeathsByDeathDate": 175524
+            "newDailyNsoDeathsByDeathDate": 129
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-21",
-            "cumDailyNsoDeathsByDeathDate": 175395
+            "newDailyNsoDeathsByDeathDate": 104
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-20",
-            "cumDailyNsoDeathsByDeathDate": 175291
+            "newDailyNsoDeathsByDeathDate": 128
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-19",
-            "cumDailyNsoDeathsByDeathDate": 175163
+            "newDailyNsoDeathsByDeathDate": 110
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-18",
-            "cumDailyNsoDeathsByDeathDate": 175053
+            "newDailyNsoDeathsByDeathDate": 106
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-17",
-            "cumDailyNsoDeathsByDeathDate": 174947
+            "newDailyNsoDeathsByDeathDate": 123
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-16",
-            "cumDailyNsoDeathsByDeathDate": 174824
+            "newDailyNsoDeathsByDeathDate": 111
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-15",
-            "cumDailyNsoDeathsByDeathDate": 174713
+            "newDailyNsoDeathsByDeathDate": 114
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-14",
-            "cumDailyNsoDeathsByDeathDate": 174599
+            "newDailyNsoDeathsByDeathDate": 149
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-13",
-            "cumDailyNsoDeathsByDeathDate": 174450
+            "newDailyNsoDeathsByDeathDate": 105
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-12",
-            "cumDailyNsoDeathsByDeathDate": 174345
+            "newDailyNsoDeathsByDeathDate": 130
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-11",
-            "cumDailyNsoDeathsByDeathDate": 174215
+            "newDailyNsoDeathsByDeathDate": 105
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-10",
-            "cumDailyNsoDeathsByDeathDate": 174110
+            "newDailyNsoDeathsByDeathDate": 118
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-09",
-            "cumDailyNsoDeathsByDeathDate": 173992
+            "newDailyNsoDeathsByDeathDate": 126
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-08",
-            "cumDailyNsoDeathsByDeathDate": 173866
+            "newDailyNsoDeathsByDeathDate": 125
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-07",
-            "cumDailyNsoDeathsByDeathDate": 173741
+            "newDailyNsoDeathsByDeathDate": 126
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-06",
-            "cumDailyNsoDeathsByDeathDate": 173615
+            "newDailyNsoDeathsByDeathDate": 141
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-05",
-            "cumDailyNsoDeathsByDeathDate": 173474
+            "newDailyNsoDeathsByDeathDate": 115
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-04",
-            "cumDailyNsoDeathsByDeathDate": 173359
+            "newDailyNsoDeathsByDeathDate": 158
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-03",
-            "cumDailyNsoDeathsByDeathDate": 173201
+            "newDailyNsoDeathsByDeathDate": 142
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-02",
-            "cumDailyNsoDeathsByDeathDate": 173059
+            "newDailyNsoDeathsByDeathDate": 121
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-12-01",
-            "cumDailyNsoDeathsByDeathDate": 172938
+            "newDailyNsoDeathsByDeathDate": 136
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-30",
-            "cumDailyNsoDeathsByDeathDate": 172802
+            "newDailyNsoDeathsByDeathDate": 117
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-29",
-            "cumDailyNsoDeathsByDeathDate": 172685
+            "newDailyNsoDeathsByDeathDate": 142
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-28",
-            "cumDailyNsoDeathsByDeathDate": 172543
+            "newDailyNsoDeathsByDeathDate": 138
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-27",
-            "cumDailyNsoDeathsByDeathDate": 172405
+            "newDailyNsoDeathsByDeathDate": 119
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-26",
-            "cumDailyNsoDeathsByDeathDate": 172286
+            "newDailyNsoDeathsByDeathDate": 128
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-25",
-            "cumDailyNsoDeathsByDeathDate": 172158
+            "newDailyNsoDeathsByDeathDate": 140
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-24",
-            "cumDailyNsoDeathsByDeathDate": 172018
+            "newDailyNsoDeathsByDeathDate": 121
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-23",
-            "cumDailyNsoDeathsByDeathDate": 171897
+            "newDailyNsoDeathsByDeathDate": 146
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-22",
-            "cumDailyNsoDeathsByDeathDate": 171751
+            "newDailyNsoDeathsByDeathDate": 127
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-21",
-            "cumDailyNsoDeathsByDeathDate": 171624
+            "newDailyNsoDeathsByDeathDate": 116
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-20",
-            "cumDailyNsoDeathsByDeathDate": 171508
+            "newDailyNsoDeathsByDeathDate": 139
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-19",
-            "cumDailyNsoDeathsByDeathDate": 171369
+            "newDailyNsoDeathsByDeathDate": 138
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-18",
-            "cumDailyNsoDeathsByDeathDate": 171231
+            "newDailyNsoDeathsByDeathDate": 128
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-17",
-            "cumDailyNsoDeathsByDeathDate": 171103
+            "newDailyNsoDeathsByDeathDate": 122
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-16",
-            "cumDailyNsoDeathsByDeathDate": 170981
+            "newDailyNsoDeathsByDeathDate": 163
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-15",
-            "cumDailyNsoDeathsByDeathDate": 170818
+            "newDailyNsoDeathsByDeathDate": 161
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-14",
-            "cumDailyNsoDeathsByDeathDate": 170657
+            "newDailyNsoDeathsByDeathDate": 131
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-13",
-            "cumDailyNsoDeathsByDeathDate": 170526
+            "newDailyNsoDeathsByDeathDate": 150
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-12",
-            "cumDailyNsoDeathsByDeathDate": 170376
+            "newDailyNsoDeathsByDeathDate": 139
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-11",
-            "cumDailyNsoDeathsByDeathDate": 170237
+            "newDailyNsoDeathsByDeathDate": 153
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-10",
-            "cumDailyNsoDeathsByDeathDate": 170084
+            "newDailyNsoDeathsByDeathDate": 167
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-09",
-            "cumDailyNsoDeathsByDeathDate": 169917
+            "newDailyNsoDeathsByDeathDate": 156
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-08",
-            "cumDailyNsoDeathsByDeathDate": 169761
+            "newDailyNsoDeathsByDeathDate": 156
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-07",
-            "cumDailyNsoDeathsByDeathDate": 169605
+            "newDailyNsoDeathsByDeathDate": 158
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-06",
-            "cumDailyNsoDeathsByDeathDate": 169447
+            "newDailyNsoDeathsByDeathDate": 168
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-05",
-            "cumDailyNsoDeathsByDeathDate": 169279
+            "newDailyNsoDeathsByDeathDate": 162
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-04",
-            "cumDailyNsoDeathsByDeathDate": 169117
+            "newDailyNsoDeathsByDeathDate": 165
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-03",
-            "cumDailyNsoDeathsByDeathDate": 168952
+            "newDailyNsoDeathsByDeathDate": 178
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-02",
-            "cumDailyNsoDeathsByDeathDate": 168774
+            "newDailyNsoDeathsByDeathDate": 160
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-11-01",
-            "cumDailyNsoDeathsByDeathDate": 168614
+            "newDailyNsoDeathsByDeathDate": 188
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-31",
-            "cumDailyNsoDeathsByDeathDate": 168426
+            "newDailyNsoDeathsByDeathDate": 193
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-30",
-            "cumDailyNsoDeathsByDeathDate": 168233
+            "newDailyNsoDeathsByDeathDate": 161
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-29",
-            "cumDailyNsoDeathsByDeathDate": 168072
+            "newDailyNsoDeathsByDeathDate": 182
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-28",
-            "cumDailyNsoDeathsByDeathDate": 167890
+            "newDailyNsoDeathsByDeathDate": 198
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-27",
-            "cumDailyNsoDeathsByDeathDate": 167692
+            "newDailyNsoDeathsByDeathDate": 172
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-26",
-            "cumDailyNsoDeathsByDeathDate": 167520
+            "newDailyNsoDeathsByDeathDate": 174
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-25",
-            "cumDailyNsoDeathsByDeathDate": 167346
+            "newDailyNsoDeathsByDeathDate": 148
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-24",
-            "cumDailyNsoDeathsByDeathDate": 167198
+            "newDailyNsoDeathsByDeathDate": 164
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-23",
-            "cumDailyNsoDeathsByDeathDate": 167034
+            "newDailyNsoDeathsByDeathDate": 166
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-22",
-            "cumDailyNsoDeathsByDeathDate": 166868
+            "newDailyNsoDeathsByDeathDate": 148
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-21",
-            "cumDailyNsoDeathsByDeathDate": 166720
+            "newDailyNsoDeathsByDeathDate": 164
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-20",
-            "cumDailyNsoDeathsByDeathDate": 166556
+            "newDailyNsoDeathsByDeathDate": 151
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-19",
-            "cumDailyNsoDeathsByDeathDate": 166405
+            "newDailyNsoDeathsByDeathDate": 141
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-18",
-            "cumDailyNsoDeathsByDeathDate": 166264
+            "newDailyNsoDeathsByDeathDate": 136
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-17",
-            "cumDailyNsoDeathsByDeathDate": 166128
+            "newDailyNsoDeathsByDeathDate": 137
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-16",
-            "cumDailyNsoDeathsByDeathDate": 165991
+            "newDailyNsoDeathsByDeathDate": 151
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-15",
-            "cumDailyNsoDeathsByDeathDate": 165840
+            "newDailyNsoDeathsByDeathDate": 138
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-14",
-            "cumDailyNsoDeathsByDeathDate": 165702
+            "newDailyNsoDeathsByDeathDate": 160
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-13",
-            "cumDailyNsoDeathsByDeathDate": 165542
+            "newDailyNsoDeathsByDeathDate": 135
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-12",
-            "cumDailyNsoDeathsByDeathDate": 165407
+            "newDailyNsoDeathsByDeathDate": 134
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-11",
-            "cumDailyNsoDeathsByDeathDate": 165273
+            "newDailyNsoDeathsByDeathDate": 135
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-10",
-            "cumDailyNsoDeathsByDeathDate": 165138
+            "newDailyNsoDeathsByDeathDate": 114
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-09",
-            "cumDailyNsoDeathsByDeathDate": 165024
+            "newDailyNsoDeathsByDeathDate": 119
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-08",
-            "cumDailyNsoDeathsByDeathDate": 164905
+            "newDailyNsoDeathsByDeathDate": 121
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-07",
-            "cumDailyNsoDeathsByDeathDate": 164784
+            "newDailyNsoDeathsByDeathDate": 132
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-06",
-            "cumDailyNsoDeathsByDeathDate": 164652
+            "newDailyNsoDeathsByDeathDate": 111
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-05",
-            "cumDailyNsoDeathsByDeathDate": 164541
+            "newDailyNsoDeathsByDeathDate": 133
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-04",
-            "cumDailyNsoDeathsByDeathDate": 164408
+            "newDailyNsoDeathsByDeathDate": 111
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-03",
-            "cumDailyNsoDeathsByDeathDate": 164297
+            "newDailyNsoDeathsByDeathDate": 106
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-02",
-            "cumDailyNsoDeathsByDeathDate": 164191
+            "newDailyNsoDeathsByDeathDate": 117
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-10-01",
-            "cumDailyNsoDeathsByDeathDate": 164074
+            "newDailyNsoDeathsByDeathDate": 138
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-30",
-            "cumDailyNsoDeathsByDeathDate": 163936
+            "newDailyNsoDeathsByDeathDate": 126
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-29",
-            "cumDailyNsoDeathsByDeathDate": 163810
+            "newDailyNsoDeathsByDeathDate": 141
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-28",
-            "cumDailyNsoDeathsByDeathDate": 163669
+            "newDailyNsoDeathsByDeathDate": 118
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-27",
-            "cumDailyNsoDeathsByDeathDate": 163551
+            "newDailyNsoDeathsByDeathDate": 124
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-26",
-            "cumDailyNsoDeathsByDeathDate": 163427
+            "newDailyNsoDeathsByDeathDate": 109
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-25",
-            "cumDailyNsoDeathsByDeathDate": 163318
+            "newDailyNsoDeathsByDeathDate": 127
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-24",
-            "cumDailyNsoDeathsByDeathDate": 163191
+            "newDailyNsoDeathsByDeathDate": 138
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-23",
-            "cumDailyNsoDeathsByDeathDate": 163053
+            "newDailyNsoDeathsByDeathDate": 147
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-22",
-            "cumDailyNsoDeathsByDeathDate": 162906
+            "newDailyNsoDeathsByDeathDate": 157
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-21",
-            "cumDailyNsoDeathsByDeathDate": 162749
+            "newDailyNsoDeathsByDeathDate": 135
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-20",
-            "cumDailyNsoDeathsByDeathDate": 162614
+            "newDailyNsoDeathsByDeathDate": 157
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-19",
-            "cumDailyNsoDeathsByDeathDate": 162457
+            "newDailyNsoDeathsByDeathDate": 131
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-18",
-            "cumDailyNsoDeathsByDeathDate": 162326
+            "newDailyNsoDeathsByDeathDate": 135
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-17",
-            "cumDailyNsoDeathsByDeathDate": 162191
+            "newDailyNsoDeathsByDeathDate": 181
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-16",
-            "cumDailyNsoDeathsByDeathDate": 162010
+            "newDailyNsoDeathsByDeathDate": 159
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-15",
-            "cumDailyNsoDeathsByDeathDate": 161851
+            "newDailyNsoDeathsByDeathDate": 164
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-14",
-            "cumDailyNsoDeathsByDeathDate": 161687
+            "newDailyNsoDeathsByDeathDate": 164
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-13",
-            "cumDailyNsoDeathsByDeathDate": 161523
+            "newDailyNsoDeathsByDeathDate": 117
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-12",
-            "cumDailyNsoDeathsByDeathDate": 161406
+            "newDailyNsoDeathsByDeathDate": 141
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-11",
-            "cumDailyNsoDeathsByDeathDate": 161265
+            "newDailyNsoDeathsByDeathDate": 143
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-10",
-            "cumDailyNsoDeathsByDeathDate": 161122
+            "newDailyNsoDeathsByDeathDate": 149
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-09",
-            "cumDailyNsoDeathsByDeathDate": 160973
+            "newDailyNsoDeathsByDeathDate": 179
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-08",
-            "cumDailyNsoDeathsByDeathDate": 160794
+            "newDailyNsoDeathsByDeathDate": 141
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-07",
-            "cumDailyNsoDeathsByDeathDate": 160653
+            "newDailyNsoDeathsByDeathDate": 164
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-06",
-            "cumDailyNsoDeathsByDeathDate": 160489
+            "newDailyNsoDeathsByDeathDate": 156
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-05",
-            "cumDailyNsoDeathsByDeathDate": 160333
+            "newDailyNsoDeathsByDeathDate": 162
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-04",
-            "cumDailyNsoDeathsByDeathDate": 160171
+            "newDailyNsoDeathsByDeathDate": 143
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-03",
-            "cumDailyNsoDeathsByDeathDate": 160028
+            "newDailyNsoDeathsByDeathDate": 150
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-02",
-            "cumDailyNsoDeathsByDeathDate": 159878
+            "newDailyNsoDeathsByDeathDate": 137
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-09-01",
-            "cumDailyNsoDeathsByDeathDate": 159741
+            "newDailyNsoDeathsByDeathDate": 123
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-31",
-            "cumDailyNsoDeathsByDeathDate": 159618
+            "newDailyNsoDeathsByDeathDate": 125
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-30",
-            "cumDailyNsoDeathsByDeathDate": 159493
+            "newDailyNsoDeathsByDeathDate": 108
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-29",
-            "cumDailyNsoDeathsByDeathDate": 159385
+            "newDailyNsoDeathsByDeathDate": 137
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-28",
-            "cumDailyNsoDeathsByDeathDate": 159248
+            "newDailyNsoDeathsByDeathDate": 134
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-27",
-            "cumDailyNsoDeathsByDeathDate": 159114
+            "newDailyNsoDeathsByDeathDate": 137
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-26",
-            "cumDailyNsoDeathsByDeathDate": 158977
+            "newDailyNsoDeathsByDeathDate": 124
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-25",
-            "cumDailyNsoDeathsByDeathDate": 158853
+            "newDailyNsoDeathsByDeathDate": 106
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-24",
-            "cumDailyNsoDeathsByDeathDate": 158747
+            "newDailyNsoDeathsByDeathDate": 118
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-23",
-            "cumDailyNsoDeathsByDeathDate": 158629
+            "newDailyNsoDeathsByDeathDate": 119
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-22",
-            "cumDailyNsoDeathsByDeathDate": 158510
+            "newDailyNsoDeathsByDeathDate": 128
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-21",
-            "cumDailyNsoDeathsByDeathDate": 158382
+            "newDailyNsoDeathsByDeathDate": 113
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-20",
-            "cumDailyNsoDeathsByDeathDate": 158269
+            "newDailyNsoDeathsByDeathDate": 126
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-19",
-            "cumDailyNsoDeathsByDeathDate": 158143
+            "newDailyNsoDeathsByDeathDate": 113
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-18",
-            "cumDailyNsoDeathsByDeathDate": 158030
+            "newDailyNsoDeathsByDeathDate": 111
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-17",
-            "cumDailyNsoDeathsByDeathDate": 157919
+            "newDailyNsoDeathsByDeathDate": 98
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-16",
-            "cumDailyNsoDeathsByDeathDate": 157821
+            "newDailyNsoDeathsByDeathDate": 88
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-15",
-            "cumDailyNsoDeathsByDeathDate": 157733
+            "newDailyNsoDeathsByDeathDate": 91
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-14",
-            "cumDailyNsoDeathsByDeathDate": 157642
+            "newDailyNsoDeathsByDeathDate": 103
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-13",
-            "cumDailyNsoDeathsByDeathDate": 157539
+            "newDailyNsoDeathsByDeathDate": 96
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-12",
-            "cumDailyNsoDeathsByDeathDate": 157443
+            "newDailyNsoDeathsByDeathDate": 105
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-11",
-            "cumDailyNsoDeathsByDeathDate": 157338
+            "newDailyNsoDeathsByDeathDate": 87
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-10",
-            "cumDailyNsoDeathsByDeathDate": 157251
+            "newDailyNsoDeathsByDeathDate": 83
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-09",
-            "cumDailyNsoDeathsByDeathDate": 157168
+            "newDailyNsoDeathsByDeathDate": 84
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-08",
-            "cumDailyNsoDeathsByDeathDate": 157084
+            "newDailyNsoDeathsByDeathDate": 83
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-07",
-            "cumDailyNsoDeathsByDeathDate": 157001
+            "newDailyNsoDeathsByDeathDate": 106
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-06",
-            "cumDailyNsoDeathsByDeathDate": 156895
+            "newDailyNsoDeathsByDeathDate": 95
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-05",
-            "cumDailyNsoDeathsByDeathDate": 156800
+            "newDailyNsoDeathsByDeathDate": 100
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-04",
-            "cumDailyNsoDeathsByDeathDate": 156700
+            "newDailyNsoDeathsByDeathDate": 92
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-03",
-            "cumDailyNsoDeathsByDeathDate": 156608
+            "newDailyNsoDeathsByDeathDate": 80
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-02",
-            "cumDailyNsoDeathsByDeathDate": 156528
+            "newDailyNsoDeathsByDeathDate": 92
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-08-01",
-            "cumDailyNsoDeathsByDeathDate": 156436
+            "newDailyNsoDeathsByDeathDate": 96
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-31",
-            "cumDailyNsoDeathsByDeathDate": 156340
+            "newDailyNsoDeathsByDeathDate": 90
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-30",
-            "cumDailyNsoDeathsByDeathDate": 156250
+            "newDailyNsoDeathsByDeathDate": 102
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-29",
-            "cumDailyNsoDeathsByDeathDate": 156148
+            "newDailyNsoDeathsByDeathDate": 88
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-28",
-            "cumDailyNsoDeathsByDeathDate": 156060
+            "newDailyNsoDeathsByDeathDate": 82
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-27",
-            "cumDailyNsoDeathsByDeathDate": 155978
+            "newDailyNsoDeathsByDeathDate": 75
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-26",
-            "cumDailyNsoDeathsByDeathDate": 155903
+            "newDailyNsoDeathsByDeathDate": 79
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-25",
-            "cumDailyNsoDeathsByDeathDate": 155824
+            "newDailyNsoDeathsByDeathDate": 70
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-24",
-            "cumDailyNsoDeathsByDeathDate": 155754
+            "newDailyNsoDeathsByDeathDate": 68
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-23",
-            "cumDailyNsoDeathsByDeathDate": 155686
+            "newDailyNsoDeathsByDeathDate": 82
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-22",
-            "cumDailyNsoDeathsByDeathDate": 155604
+            "newDailyNsoDeathsByDeathDate": 85
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-21",
-            "cumDailyNsoDeathsByDeathDate": 155519
+            "newDailyNsoDeathsByDeathDate": 62
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-20",
-            "cumDailyNsoDeathsByDeathDate": 155457
+            "newDailyNsoDeathsByDeathDate": 68
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-19",
-            "cumDailyNsoDeathsByDeathDate": 155389
+            "newDailyNsoDeathsByDeathDate": 86
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-18",
-            "cumDailyNsoDeathsByDeathDate": 155303
+            "newDailyNsoDeathsByDeathDate": 72
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-17",
-            "cumDailyNsoDeathsByDeathDate": 155231
+            "newDailyNsoDeathsByDeathDate": 60
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-16",
-            "cumDailyNsoDeathsByDeathDate": 155171
+            "newDailyNsoDeathsByDeathDate": 54
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-15",
-            "cumDailyNsoDeathsByDeathDate": 155117
+            "newDailyNsoDeathsByDeathDate": 52
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-14",
-            "cumDailyNsoDeathsByDeathDate": 155065
+            "newDailyNsoDeathsByDeathDate": 45
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-13",
-            "cumDailyNsoDeathsByDeathDate": 155020
+            "newDailyNsoDeathsByDeathDate": 49
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-12",
-            "cumDailyNsoDeathsByDeathDate": 154971
+            "newDailyNsoDeathsByDeathDate": 42
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-11",
-            "cumDailyNsoDeathsByDeathDate": 154929
+            "newDailyNsoDeathsByDeathDate": 35
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-10",
-            "cumDailyNsoDeathsByDeathDate": 154894
+            "newDailyNsoDeathsByDeathDate": 45
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-09",
-            "cumDailyNsoDeathsByDeathDate": 154849
+            "newDailyNsoDeathsByDeathDate": 51
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-08",
-            "cumDailyNsoDeathsByDeathDate": 154798
+            "newDailyNsoDeathsByDeathDate": 41
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-07",
-            "cumDailyNsoDeathsByDeathDate": 154757
+            "newDailyNsoDeathsByDeathDate": 36
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-06",
-            "cumDailyNsoDeathsByDeathDate": 154721
+            "newDailyNsoDeathsByDeathDate": 34
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-05",
-            "cumDailyNsoDeathsByDeathDate": 154687
+            "newDailyNsoDeathsByDeathDate": 29
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-04",
-            "cumDailyNsoDeathsByDeathDate": 154658
+            "newDailyNsoDeathsByDeathDate": 29
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-03",
-            "cumDailyNsoDeathsByDeathDate": 154629
+            "newDailyNsoDeathsByDeathDate": 31
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-02",
-            "cumDailyNsoDeathsByDeathDate": 154598
+            "newDailyNsoDeathsByDeathDate": 32
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-07-01",
-            "cumDailyNsoDeathsByDeathDate": 154566
+            "newDailyNsoDeathsByDeathDate": 28
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-30",
-            "cumDailyNsoDeathsByDeathDate": 154538
+            "newDailyNsoDeathsByDeathDate": 26
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-29",
-            "cumDailyNsoDeathsByDeathDate": 154512
+            "newDailyNsoDeathsByDeathDate": 24
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-28",
-            "cumDailyNsoDeathsByDeathDate": 154488
+            "newDailyNsoDeathsByDeathDate": 18
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-27",
-            "cumDailyNsoDeathsByDeathDate": 154470
+            "newDailyNsoDeathsByDeathDate": 24
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-26",
-            "cumDailyNsoDeathsByDeathDate": 154446
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-25",
-            "cumDailyNsoDeathsByDeathDate": 154429
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-24",
-            "cumDailyNsoDeathsByDeathDate": 154408
+            "newDailyNsoDeathsByDeathDate": 29
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-23",
-            "cumDailyNsoDeathsByDeathDate": 154379
+            "newDailyNsoDeathsByDeathDate": 9
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-22",
-            "cumDailyNsoDeathsByDeathDate": 154370
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-21",
-            "cumDailyNsoDeathsByDeathDate": 154353
+            "newDailyNsoDeathsByDeathDate": 12
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-20",
-            "cumDailyNsoDeathsByDeathDate": 154341
+            "newDailyNsoDeathsByDeathDate": 22
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-19",
-            "cumDailyNsoDeathsByDeathDate": 154319
+            "newDailyNsoDeathsByDeathDate": 20
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-18",
-            "cumDailyNsoDeathsByDeathDate": 154299
+            "newDailyNsoDeathsByDeathDate": 18
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-17",
-            "cumDailyNsoDeathsByDeathDate": 154281
+            "newDailyNsoDeathsByDeathDate": 9
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-16",
-            "cumDailyNsoDeathsByDeathDate": 154272
+            "newDailyNsoDeathsByDeathDate": 13
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-15",
-            "cumDailyNsoDeathsByDeathDate": 154259
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-14",
-            "cumDailyNsoDeathsByDeathDate": 154238
+            "newDailyNsoDeathsByDeathDate": 12
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-13",
-            "cumDailyNsoDeathsByDeathDate": 154226
+            "newDailyNsoDeathsByDeathDate": 12
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-12",
-            "cumDailyNsoDeathsByDeathDate": 154214
+            "newDailyNsoDeathsByDeathDate": 12
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-11",
-            "cumDailyNsoDeathsByDeathDate": 154202
+            "newDailyNsoDeathsByDeathDate": 13
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-10",
-            "cumDailyNsoDeathsByDeathDate": 154189
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-09",
-            "cumDailyNsoDeathsByDeathDate": 154173
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-08",
-            "cumDailyNsoDeathsByDeathDate": 154156
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-07",
-            "cumDailyNsoDeathsByDeathDate": 154141
+            "newDailyNsoDeathsByDeathDate": 6
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-06",
-            "cumDailyNsoDeathsByDeathDate": 154135
+            "newDailyNsoDeathsByDeathDate": 13
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-05",
-            "cumDailyNsoDeathsByDeathDate": 154122
+            "newDailyNsoDeathsByDeathDate": 7
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-04",
-            "cumDailyNsoDeathsByDeathDate": 154115
+            "newDailyNsoDeathsByDeathDate": 14
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-03",
-            "cumDailyNsoDeathsByDeathDate": 154101
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-02",
-            "cumDailyNsoDeathsByDeathDate": 154085
+            "newDailyNsoDeathsByDeathDate": 12
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-06-01",
-            "cumDailyNsoDeathsByDeathDate": 154073
+            "newDailyNsoDeathsByDeathDate": 10
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-31",
-            "cumDailyNsoDeathsByDeathDate": 154063
+            "newDailyNsoDeathsByDeathDate": 11
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-30",
-            "cumDailyNsoDeathsByDeathDate": 154052
+            "newDailyNsoDeathsByDeathDate": 9
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-29",
-            "cumDailyNsoDeathsByDeathDate": 154043
+            "newDailyNsoDeathsByDeathDate": 12
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-28",
-            "cumDailyNsoDeathsByDeathDate": 154031
+            "newDailyNsoDeathsByDeathDate": 14
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-27",
-            "cumDailyNsoDeathsByDeathDate": 154017
+            "newDailyNsoDeathsByDeathDate": 8
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-26",
-            "cumDailyNsoDeathsByDeathDate": 154009
+            "newDailyNsoDeathsByDeathDate": 14
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-25",
-            "cumDailyNsoDeathsByDeathDate": 153995
+            "newDailyNsoDeathsByDeathDate": 10
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-24",
-            "cumDailyNsoDeathsByDeathDate": 153985
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-23",
-            "cumDailyNsoDeathsByDeathDate": 153969
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-22",
-            "cumDailyNsoDeathsByDeathDate": 153953
+            "newDailyNsoDeathsByDeathDate": 4
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-21",
-            "cumDailyNsoDeathsByDeathDate": 153949
+            "newDailyNsoDeathsByDeathDate": 18
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-20",
-            "cumDailyNsoDeathsByDeathDate": 153931
+            "newDailyNsoDeathsByDeathDate": 7
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-19",
-            "cumDailyNsoDeathsByDeathDate": 153924
+            "newDailyNsoDeathsByDeathDate": 4
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-18",
-            "cumDailyNsoDeathsByDeathDate": 153920
+            "newDailyNsoDeathsByDeathDate": 11
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-17",
-            "cumDailyNsoDeathsByDeathDate": 153909
+            "newDailyNsoDeathsByDeathDate": 13
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-16",
-            "cumDailyNsoDeathsByDeathDate": 153896
+            "newDailyNsoDeathsByDeathDate": 14
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-15",
-            "cumDailyNsoDeathsByDeathDate": 153882
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-14",
-            "cumDailyNsoDeathsByDeathDate": 153867
+            "newDailyNsoDeathsByDeathDate": 14
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-13",
-            "cumDailyNsoDeathsByDeathDate": 153853
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-12",
-            "cumDailyNsoDeathsByDeathDate": 153838
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-11",
-            "cumDailyNsoDeathsByDeathDate": 153823
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-10",
-            "cumDailyNsoDeathsByDeathDate": 153802
+            "newDailyNsoDeathsByDeathDate": 8
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-09",
-            "cumDailyNsoDeathsByDeathDate": 153794
+            "newDailyNsoDeathsByDeathDate": 11
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-08",
-            "cumDailyNsoDeathsByDeathDate": 153783
+            "newDailyNsoDeathsByDeathDate": 20
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-07",
-            "cumDailyNsoDeathsByDeathDate": 153763
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-06",
-            "cumDailyNsoDeathsByDeathDate": 153746
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-05",
-            "cumDailyNsoDeathsByDeathDate": 153729
+            "newDailyNsoDeathsByDeathDate": 22
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-04",
-            "cumDailyNsoDeathsByDeathDate": 153707
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-03",
-            "cumDailyNsoDeathsByDeathDate": 153692
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-02",
-            "cumDailyNsoDeathsByDeathDate": 153675
+            "newDailyNsoDeathsByDeathDate": 18
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-05-01",
-            "cumDailyNsoDeathsByDeathDate": 153657
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-30",
-            "cumDailyNsoDeathsByDeathDate": 153642
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-29",
-            "cumDailyNsoDeathsByDeathDate": 153626
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-28",
-            "cumDailyNsoDeathsByDeathDate": 153609
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-27",
-            "cumDailyNsoDeathsByDeathDate": 153588
+            "newDailyNsoDeathsByDeathDate": 25
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-26",
-            "cumDailyNsoDeathsByDeathDate": 153563
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-25",
-            "cumDailyNsoDeathsByDeathDate": 153542
+            "newDailyNsoDeathsByDeathDate": 27
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-24",
-            "cumDailyNsoDeathsByDeathDate": 153515
+            "newDailyNsoDeathsByDeathDate": 24
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-23",
-            "cumDailyNsoDeathsByDeathDate": 153491
+            "newDailyNsoDeathsByDeathDate": 29
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-22",
-            "cumDailyNsoDeathsByDeathDate": 153462
+            "newDailyNsoDeathsByDeathDate": 33
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-21",
-            "cumDailyNsoDeathsByDeathDate": 153429
+            "newDailyNsoDeathsByDeathDate": 35
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-20",
-            "cumDailyNsoDeathsByDeathDate": 153394
+            "newDailyNsoDeathsByDeathDate": 35
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-19",
-            "cumDailyNsoDeathsByDeathDate": 153359
+            "newDailyNsoDeathsByDeathDate": 23
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-18",
-            "cumDailyNsoDeathsByDeathDate": 153336
+            "newDailyNsoDeathsByDeathDate": 31
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-17",
-            "cumDailyNsoDeathsByDeathDate": 153305
+            "newDailyNsoDeathsByDeathDate": 41
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-16",
-            "cumDailyNsoDeathsByDeathDate": 153264
+            "newDailyNsoDeathsByDeathDate": 31
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-15",
-            "cumDailyNsoDeathsByDeathDate": 153233
+            "newDailyNsoDeathsByDeathDate": 43
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-14",
-            "cumDailyNsoDeathsByDeathDate": 153190
+            "newDailyNsoDeathsByDeathDate": 34
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-13",
-            "cumDailyNsoDeathsByDeathDate": 153156
+            "newDailyNsoDeathsByDeathDate": 47
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-12",
-            "cumDailyNsoDeathsByDeathDate": 153109
+            "newDailyNsoDeathsByDeathDate": 37
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-11",
-            "cumDailyNsoDeathsByDeathDate": 153072
+            "newDailyNsoDeathsByDeathDate": 40
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-10",
-            "cumDailyNsoDeathsByDeathDate": 153032
+            "newDailyNsoDeathsByDeathDate": 43
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-09",
-            "cumDailyNsoDeathsByDeathDate": 152989
+            "newDailyNsoDeathsByDeathDate": 38
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-08",
-            "cumDailyNsoDeathsByDeathDate": 152951
+            "newDailyNsoDeathsByDeathDate": 61
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-07",
-            "cumDailyNsoDeathsByDeathDate": 152890
+            "newDailyNsoDeathsByDeathDate": 45
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-06",
-            "cumDailyNsoDeathsByDeathDate": 152845
+            "newDailyNsoDeathsByDeathDate": 45
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-05",
-            "cumDailyNsoDeathsByDeathDate": 152800
+            "newDailyNsoDeathsByDeathDate": 45
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-04",
-            "cumDailyNsoDeathsByDeathDate": 152755
+            "newDailyNsoDeathsByDeathDate": 53
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-03",
-            "cumDailyNsoDeathsByDeathDate": 152702
+            "newDailyNsoDeathsByDeathDate": 41
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-02",
-            "cumDailyNsoDeathsByDeathDate": 152661
+            "newDailyNsoDeathsByDeathDate": 50
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-04-01",
-            "cumDailyNsoDeathsByDeathDate": 152611
+            "newDailyNsoDeathsByDeathDate": 63
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-31",
-            "cumDailyNsoDeathsByDeathDate": 152548
+            "newDailyNsoDeathsByDeathDate": 73
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-30",
-            "cumDailyNsoDeathsByDeathDate": 152475
+            "newDailyNsoDeathsByDeathDate": 54
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-29",
-            "cumDailyNsoDeathsByDeathDate": 152421
+            "newDailyNsoDeathsByDeathDate": 68
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-28",
-            "cumDailyNsoDeathsByDeathDate": 152353
+            "newDailyNsoDeathsByDeathDate": 49
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-27",
-            "cumDailyNsoDeathsByDeathDate": 152304
+            "newDailyNsoDeathsByDeathDate": 64
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-26",
-            "cumDailyNsoDeathsByDeathDate": 152240
+            "newDailyNsoDeathsByDeathDate": 75
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-25",
-            "cumDailyNsoDeathsByDeathDate": 152165
+            "newDailyNsoDeathsByDeathDate": 78
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-24",
-            "cumDailyNsoDeathsByDeathDate": 152087
+            "newDailyNsoDeathsByDeathDate": 70
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-23",
-            "cumDailyNsoDeathsByDeathDate": 152017
+            "newDailyNsoDeathsByDeathDate": 94
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-22",
-            "cumDailyNsoDeathsByDeathDate": 151923
+            "newDailyNsoDeathsByDeathDate": 107
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-21",
-            "cumDailyNsoDeathsByDeathDate": 151816
+            "newDailyNsoDeathsByDeathDate": 125
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-20",
-            "cumDailyNsoDeathsByDeathDate": 151691
+            "newDailyNsoDeathsByDeathDate": 99
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-19",
-            "cumDailyNsoDeathsByDeathDate": 151592
+            "newDailyNsoDeathsByDeathDate": 102
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-18",
-            "cumDailyNsoDeathsByDeathDate": 151490
+            "newDailyNsoDeathsByDeathDate": 100
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-17",
-            "cumDailyNsoDeathsByDeathDate": 151390
+            "newDailyNsoDeathsByDeathDate": 127
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-16",
-            "cumDailyNsoDeathsByDeathDate": 151263
+            "newDailyNsoDeathsByDeathDate": 114
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-15",
-            "cumDailyNsoDeathsByDeathDate": 151149
+            "newDailyNsoDeathsByDeathDate": 136
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-14",
-            "cumDailyNsoDeathsByDeathDate": 151013
+            "newDailyNsoDeathsByDeathDate": 135
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-13",
-            "cumDailyNsoDeathsByDeathDate": 150878
+            "newDailyNsoDeathsByDeathDate": 135
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-12",
-            "cumDailyNsoDeathsByDeathDate": 150743
+            "newDailyNsoDeathsByDeathDate": 134
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-11",
-            "cumDailyNsoDeathsByDeathDate": 150609
+            "newDailyNsoDeathsByDeathDate": 173
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-10",
-            "cumDailyNsoDeathsByDeathDate": 150436
+            "newDailyNsoDeathsByDeathDate": 161
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-09",
-            "cumDailyNsoDeathsByDeathDate": 150275
+            "newDailyNsoDeathsByDeathDate": 185
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-08",
-            "cumDailyNsoDeathsByDeathDate": 150090
+            "newDailyNsoDeathsByDeathDate": 197
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-07",
-            "cumDailyNsoDeathsByDeathDate": 149893
+            "newDailyNsoDeathsByDeathDate": 196
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-06",
-            "cumDailyNsoDeathsByDeathDate": 149697
+            "newDailyNsoDeathsByDeathDate": 210
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-05",
-            "cumDailyNsoDeathsByDeathDate": 149487
+            "newDailyNsoDeathsByDeathDate": 222
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-04",
-            "cumDailyNsoDeathsByDeathDate": 149265
+            "newDailyNsoDeathsByDeathDate": 233
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-03",
-            "cumDailyNsoDeathsByDeathDate": 149032
+            "newDailyNsoDeathsByDeathDate": 216
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-02",
-            "cumDailyNsoDeathsByDeathDate": 148816
+            "newDailyNsoDeathsByDeathDate": 244
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-03-01",
-            "cumDailyNsoDeathsByDeathDate": 148572
+            "newDailyNsoDeathsByDeathDate": 294
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-28",
-            "cumDailyNsoDeathsByDeathDate": 148278
+            "newDailyNsoDeathsByDeathDate": 279
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-27",
-            "cumDailyNsoDeathsByDeathDate": 147999
+            "newDailyNsoDeathsByDeathDate": 306
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-26",
-            "cumDailyNsoDeathsByDeathDate": 147693
+            "newDailyNsoDeathsByDeathDate": 302
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-25",
-            "cumDailyNsoDeathsByDeathDate": 147391
+            "newDailyNsoDeathsByDeathDate": 351
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-24",
-            "cumDailyNsoDeathsByDeathDate": 147040
+            "newDailyNsoDeathsByDeathDate": 365
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-23",
-            "cumDailyNsoDeathsByDeathDate": 146675
+            "newDailyNsoDeathsByDeathDate": 378
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-22",
-            "cumDailyNsoDeathsByDeathDate": 146297
+            "newDailyNsoDeathsByDeathDate": 377
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-21",
-            "cumDailyNsoDeathsByDeathDate": 145920
+            "newDailyNsoDeathsByDeathDate": 411
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-20",
-            "cumDailyNsoDeathsByDeathDate": 145509
+            "newDailyNsoDeathsByDeathDate": 451
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-19",
-            "cumDailyNsoDeathsByDeathDate": 145058
+            "newDailyNsoDeathsByDeathDate": 466
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-18",
-            "cumDailyNsoDeathsByDeathDate": 144592
+            "newDailyNsoDeathsByDeathDate": 521
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-17",
-            "cumDailyNsoDeathsByDeathDate": 144071
+            "newDailyNsoDeathsByDeathDate": 505
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-16",
-            "cumDailyNsoDeathsByDeathDate": 143566
+            "newDailyNsoDeathsByDeathDate": 565
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-15",
-            "cumDailyNsoDeathsByDeathDate": 143001
+            "newDailyNsoDeathsByDeathDate": 611
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-14",
-            "cumDailyNsoDeathsByDeathDate": 142390
+            "newDailyNsoDeathsByDeathDate": 601
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-13",
-            "cumDailyNsoDeathsByDeathDate": 141789
+            "newDailyNsoDeathsByDeathDate": 585
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-12",
-            "cumDailyNsoDeathsByDeathDate": 141204
+            "newDailyNsoDeathsByDeathDate": 635
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-11",
-            "cumDailyNsoDeathsByDeathDate": 140569
+            "newDailyNsoDeathsByDeathDate": 674
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-10",
-            "cumDailyNsoDeathsByDeathDate": 139895
+            "newDailyNsoDeathsByDeathDate": 712
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-09",
-            "cumDailyNsoDeathsByDeathDate": 139183
+            "newDailyNsoDeathsByDeathDate": 723
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-08",
-            "cumDailyNsoDeathsByDeathDate": 138460
+            "newDailyNsoDeathsByDeathDate": 778
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-07",
-            "cumDailyNsoDeathsByDeathDate": 137682
+            "newDailyNsoDeathsByDeathDate": 752
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-06",
-            "cumDailyNsoDeathsByDeathDate": 136930
+            "newDailyNsoDeathsByDeathDate": 787
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-05",
-            "cumDailyNsoDeathsByDeathDate": 136143
+            "newDailyNsoDeathsByDeathDate": 872
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-04",
-            "cumDailyNsoDeathsByDeathDate": 135271
+            "newDailyNsoDeathsByDeathDate": 826
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-03",
-            "cumDailyNsoDeathsByDeathDate": 134445
+            "newDailyNsoDeathsByDeathDate": 971
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-02",
-            "cumDailyNsoDeathsByDeathDate": 133474
+            "newDailyNsoDeathsByDeathDate": 959
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-02-01",
-            "cumDailyNsoDeathsByDeathDate": 132515
+            "newDailyNsoDeathsByDeathDate": 1005
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-31",
-            "cumDailyNsoDeathsByDeathDate": 131510
+            "newDailyNsoDeathsByDeathDate": 992
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-30",
-            "cumDailyNsoDeathsByDeathDate": 130518
+            "newDailyNsoDeathsByDeathDate": 1024
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-29",
-            "cumDailyNsoDeathsByDeathDate": 129494
+            "newDailyNsoDeathsByDeathDate": 1158
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-28",
-            "cumDailyNsoDeathsByDeathDate": 128336
+            "newDailyNsoDeathsByDeathDate": 1223
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-27",
-            "cumDailyNsoDeathsByDeathDate": 127113
+            "newDailyNsoDeathsByDeathDate": 1229
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-26",
-            "cumDailyNsoDeathsByDeathDate": 125884
+            "newDailyNsoDeathsByDeathDate": 1170
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-25",
-            "cumDailyNsoDeathsByDeathDate": 124714
+            "newDailyNsoDeathsByDeathDate": 1262
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-24",
-            "cumDailyNsoDeathsByDeathDate": 123452
+            "newDailyNsoDeathsByDeathDate": 1237
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-23",
-            "cumDailyNsoDeathsByDeathDate": 122215
+            "newDailyNsoDeathsByDeathDate": 1284
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-22",
-            "cumDailyNsoDeathsByDeathDate": 120931
+            "newDailyNsoDeathsByDeathDate": 1332
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-21",
-            "cumDailyNsoDeathsByDeathDate": 119599
+            "newDailyNsoDeathsByDeathDate": 1345
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-20",
-            "cumDailyNsoDeathsByDeathDate": 118254
+            "newDailyNsoDeathsByDeathDate": 1380
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-19",
-            "cumDailyNsoDeathsByDeathDate": 116874
+            "newDailyNsoDeathsByDeathDate": 1486
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-18",
-            "cumDailyNsoDeathsByDeathDate": 115388
+            "newDailyNsoDeathsByDeathDate": 1401
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-17",
-            "cumDailyNsoDeathsByDeathDate": 113987
+            "newDailyNsoDeathsByDeathDate": 1359
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-16",
-            "cumDailyNsoDeathsByDeathDate": 112628
+            "newDailyNsoDeathsByDeathDate": 1417
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-15",
-            "cumDailyNsoDeathsByDeathDate": 111211
+            "newDailyNsoDeathsByDeathDate": 1321
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-14",
-            "cumDailyNsoDeathsByDeathDate": 109890
+            "newDailyNsoDeathsByDeathDate": 1338
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-13",
-            "cumDailyNsoDeathsByDeathDate": 108552
+            "newDailyNsoDeathsByDeathDate": 1304
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-12",
-            "cumDailyNsoDeathsByDeathDate": 107248
+            "newDailyNsoDeathsByDeathDate": 1317
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-11",
-            "cumDailyNsoDeathsByDeathDate": 105931
+            "newDailyNsoDeathsByDeathDate": 1240
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-10",
-            "cumDailyNsoDeathsByDeathDate": 104691
+            "newDailyNsoDeathsByDeathDate": 1171
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-09",
-            "cumDailyNsoDeathsByDeathDate": 103520
+            "newDailyNsoDeathsByDeathDate": 1092
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-08",
-            "cumDailyNsoDeathsByDeathDate": 102428
+            "newDailyNsoDeathsByDeathDate": 1051
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-07",
-            "cumDailyNsoDeathsByDeathDate": 101377
+            "newDailyNsoDeathsByDeathDate": 1053
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-06",
-            "cumDailyNsoDeathsByDeathDate": 100324
+            "newDailyNsoDeathsByDeathDate": 1014
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-05",
-            "cumDailyNsoDeathsByDeathDate": 99310
+            "newDailyNsoDeathsByDeathDate": 968
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-04",
-            "cumDailyNsoDeathsByDeathDate": 98342
+            "newDailyNsoDeathsByDeathDate": 896
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-03",
-            "cumDailyNsoDeathsByDeathDate": 97446
+            "newDailyNsoDeathsByDeathDate": 807
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-02",
-            "cumDailyNsoDeathsByDeathDate": 96639
+            "newDailyNsoDeathsByDeathDate": 832
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2021-01-01",
-            "cumDailyNsoDeathsByDeathDate": 95807
+            "newDailyNsoDeathsByDeathDate": 809
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-31",
-            "cumDailyNsoDeathsByDeathDate": 94998
+            "newDailyNsoDeathsByDeathDate": 824
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-30",
-            "cumDailyNsoDeathsByDeathDate": 94174
+            "newDailyNsoDeathsByDeathDate": 760
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-29",
-            "cumDailyNsoDeathsByDeathDate": 93414
+            "newDailyNsoDeathsByDeathDate": 713
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-28",
-            "cumDailyNsoDeathsByDeathDate": 92701
+            "newDailyNsoDeathsByDeathDate": 723
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-27",
-            "cumDailyNsoDeathsByDeathDate": 91978
+            "newDailyNsoDeathsByDeathDate": 718
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-26",
-            "cumDailyNsoDeathsByDeathDate": 91260
+            "newDailyNsoDeathsByDeathDate": 692
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-25",
-            "cumDailyNsoDeathsByDeathDate": 90568
+            "newDailyNsoDeathsByDeathDate": 655
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-24",
-            "cumDailyNsoDeathsByDeathDate": 89913
+            "newDailyNsoDeathsByDeathDate": 616
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-23",
-            "cumDailyNsoDeathsByDeathDate": 89297
+            "newDailyNsoDeathsByDeathDate": 629
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-22",
-            "cumDailyNsoDeathsByDeathDate": 88668
+            "newDailyNsoDeathsByDeathDate": 629
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-21",
-            "cumDailyNsoDeathsByDeathDate": 88039
+            "newDailyNsoDeathsByDeathDate": 602
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-20",
-            "cumDailyNsoDeathsByDeathDate": 87437
+            "newDailyNsoDeathsByDeathDate": 551
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-19",
-            "cumDailyNsoDeathsByDeathDate": 86886
+            "newDailyNsoDeathsByDeathDate": 548
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-18",
-            "cumDailyNsoDeathsByDeathDate": 86338
+            "newDailyNsoDeathsByDeathDate": 586
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-17",
-            "cumDailyNsoDeathsByDeathDate": 85752
+            "newDailyNsoDeathsByDeathDate": 567
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-16",
-            "cumDailyNsoDeathsByDeathDate": 85185
+            "newDailyNsoDeathsByDeathDate": 484
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-15",
-            "cumDailyNsoDeathsByDeathDate": 84701
+            "newDailyNsoDeathsByDeathDate": 507
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-14",
-            "cumDailyNsoDeathsByDeathDate": 84194
+            "newDailyNsoDeathsByDeathDate": 506
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-13",
-            "cumDailyNsoDeathsByDeathDate": 83688
+            "newDailyNsoDeathsByDeathDate": 480
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-12",
-            "cumDailyNsoDeathsByDeathDate": 83208
+            "newDailyNsoDeathsByDeathDate": 488
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-11",
-            "cumDailyNsoDeathsByDeathDate": 82720
+            "newDailyNsoDeathsByDeathDate": 491
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-10",
-            "cumDailyNsoDeathsByDeathDate": 82229
+            "newDailyNsoDeathsByDeathDate": 496
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-09",
-            "cumDailyNsoDeathsByDeathDate": 81733
+            "newDailyNsoDeathsByDeathDate": 448
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-08",
-            "cumDailyNsoDeathsByDeathDate": 81285
+            "newDailyNsoDeathsByDeathDate": 472
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-07",
-            "cumDailyNsoDeathsByDeathDate": 80813
+            "newDailyNsoDeathsByDeathDate": 466
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-06",
-            "cumDailyNsoDeathsByDeathDate": 80347
+            "newDailyNsoDeathsByDeathDate": 436
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-05",
-            "cumDailyNsoDeathsByDeathDate": 79911
+            "newDailyNsoDeathsByDeathDate": 407
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-04",
-            "cumDailyNsoDeathsByDeathDate": 79504
+            "newDailyNsoDeathsByDeathDate": 499
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-03",
-            "cumDailyNsoDeathsByDeathDate": 79005
+            "newDailyNsoDeathsByDeathDate": 504
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-02",
-            "cumDailyNsoDeathsByDeathDate": 78501
+            "newDailyNsoDeathsByDeathDate": 414
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-12-01",
-            "cumDailyNsoDeathsByDeathDate": 78087
+            "newDailyNsoDeathsByDeathDate": 425
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-30",
-            "cumDailyNsoDeathsByDeathDate": 77662
+            "newDailyNsoDeathsByDeathDate": 465
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-29",
-            "cumDailyNsoDeathsByDeathDate": 77197
+            "newDailyNsoDeathsByDeathDate": 501
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-28",
-            "cumDailyNsoDeathsByDeathDate": 76696
+            "newDailyNsoDeathsByDeathDate": 486
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-27",
-            "cumDailyNsoDeathsByDeathDate": 76210
+            "newDailyNsoDeathsByDeathDate": 460
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-26",
-            "cumDailyNsoDeathsByDeathDate": 75750
+            "newDailyNsoDeathsByDeathDate": 461
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-25",
-            "cumDailyNsoDeathsByDeathDate": 75289
+            "newDailyNsoDeathsByDeathDate": 499
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-24",
-            "cumDailyNsoDeathsByDeathDate": 74790
+            "newDailyNsoDeathsByDeathDate": 496
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-23",
-            "cumDailyNsoDeathsByDeathDate": 74294
+            "newDailyNsoDeathsByDeathDate": 508
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-22",
-            "cumDailyNsoDeathsByDeathDate": 73786
+            "newDailyNsoDeathsByDeathDate": 512
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-21",
-            "cumDailyNsoDeathsByDeathDate": 73274
+            "newDailyNsoDeathsByDeathDate": 498
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-20",
-            "cumDailyNsoDeathsByDeathDate": 72776
+            "newDailyNsoDeathsByDeathDate": 485
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-19",
-            "cumDailyNsoDeathsByDeathDate": 72291
+            "newDailyNsoDeathsByDeathDate": 485
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-18",
-            "cumDailyNsoDeathsByDeathDate": 71806
+            "newDailyNsoDeathsByDeathDate": 514
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-17",
-            "cumDailyNsoDeathsByDeathDate": 71292
+            "newDailyNsoDeathsByDeathDate": 466
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-16",
-            "cumDailyNsoDeathsByDeathDate": 70826
+            "newDailyNsoDeathsByDeathDate": 431
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-15",
-            "cumDailyNsoDeathsByDeathDate": 70395
+            "newDailyNsoDeathsByDeathDate": 457
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-14",
-            "cumDailyNsoDeathsByDeathDate": 69938
+            "newDailyNsoDeathsByDeathDate": 459
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-13",
-            "cumDailyNsoDeathsByDeathDate": 69479
+            "newDailyNsoDeathsByDeathDate": 450
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-12",
-            "cumDailyNsoDeathsByDeathDate": 69029
+            "newDailyNsoDeathsByDeathDate": 430
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-11",
-            "cumDailyNsoDeathsByDeathDate": 68599
+            "newDailyNsoDeathsByDeathDate": 409
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-10",
-            "cumDailyNsoDeathsByDeathDate": 68190
+            "newDailyNsoDeathsByDeathDate": 410
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-09",
-            "cumDailyNsoDeathsByDeathDate": 67780
+            "newDailyNsoDeathsByDeathDate": 493
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-08",
-            "cumDailyNsoDeathsByDeathDate": 67287
+            "newDailyNsoDeathsByDeathDate": 433
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-07",
-            "cumDailyNsoDeathsByDeathDate": 66854
+            "newDailyNsoDeathsByDeathDate": 417
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-06",
-            "cumDailyNsoDeathsByDeathDate": 66437
+            "newDailyNsoDeathsByDeathDate": 417
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-05",
-            "cumDailyNsoDeathsByDeathDate": 66020
+            "newDailyNsoDeathsByDeathDate": 388
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-04",
-            "cumDailyNsoDeathsByDeathDate": 65632
+            "newDailyNsoDeathsByDeathDate": 340
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-03",
-            "cumDailyNsoDeathsByDeathDate": 65292
+            "newDailyNsoDeathsByDeathDate": 377
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-02",
-            "cumDailyNsoDeathsByDeathDate": 64915
+            "newDailyNsoDeathsByDeathDate": 338
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-11-01",
-            "cumDailyNsoDeathsByDeathDate": 64577
+            "newDailyNsoDeathsByDeathDate": 359
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-31",
-            "cumDailyNsoDeathsByDeathDate": 64218
+            "newDailyNsoDeathsByDeathDate": 340
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-30",
-            "cumDailyNsoDeathsByDeathDate": 63878
+            "newDailyNsoDeathsByDeathDate": 352
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-29",
-            "cumDailyNsoDeathsByDeathDate": 63526
+            "newDailyNsoDeathsByDeathDate": 320
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-28",
-            "cumDailyNsoDeathsByDeathDate": 63206
+            "newDailyNsoDeathsByDeathDate": 281
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-27",
-            "cumDailyNsoDeathsByDeathDate": 62925
+            "newDailyNsoDeathsByDeathDate": 285
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-26",
-            "cumDailyNsoDeathsByDeathDate": 62640
+            "newDailyNsoDeathsByDeathDate": 282
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-25",
-            "cumDailyNsoDeathsByDeathDate": 62358
+            "newDailyNsoDeathsByDeathDate": 255
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-24",
-            "cumDailyNsoDeathsByDeathDate": 62103
+            "newDailyNsoDeathsByDeathDate": 219
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-23",
-            "cumDailyNsoDeathsByDeathDate": 61884
+            "newDailyNsoDeathsByDeathDate": 225
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-22",
-            "cumDailyNsoDeathsByDeathDate": 61659
+            "newDailyNsoDeathsByDeathDate": 242
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-21",
-            "cumDailyNsoDeathsByDeathDate": 61417
+            "newDailyNsoDeathsByDeathDate": 232
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-20",
-            "cumDailyNsoDeathsByDeathDate": 61185
+            "newDailyNsoDeathsByDeathDate": 210
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-19",
-            "cumDailyNsoDeathsByDeathDate": 60975
+            "newDailyNsoDeathsByDeathDate": 193
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-18",
-            "cumDailyNsoDeathsByDeathDate": 60782
+            "newDailyNsoDeathsByDeathDate": 167
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-17",
-            "cumDailyNsoDeathsByDeathDate": 60615
+            "newDailyNsoDeathsByDeathDate": 186
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-16",
-            "cumDailyNsoDeathsByDeathDate": 60429
+            "newDailyNsoDeathsByDeathDate": 162
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-15",
-            "cumDailyNsoDeathsByDeathDate": 60267
+            "newDailyNsoDeathsByDeathDate": 152
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-14",
-            "cumDailyNsoDeathsByDeathDate": 60115
+            "newDailyNsoDeathsByDeathDate": 123
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-13",
-            "cumDailyNsoDeathsByDeathDate": 59992
+            "newDailyNsoDeathsByDeathDate": 119
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-12",
-            "cumDailyNsoDeathsByDeathDate": 59873
+            "newDailyNsoDeathsByDeathDate": 120
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-11",
-            "cumDailyNsoDeathsByDeathDate": 59753
+            "newDailyNsoDeathsByDeathDate": 128
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-10",
-            "cumDailyNsoDeathsByDeathDate": 59625
+            "newDailyNsoDeathsByDeathDate": 107
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-09",
-            "cumDailyNsoDeathsByDeathDate": 59518
+            "newDailyNsoDeathsByDeathDate": 96
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-08",
-            "cumDailyNsoDeathsByDeathDate": 59422
+            "newDailyNsoDeathsByDeathDate": 97
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-07",
-            "cumDailyNsoDeathsByDeathDate": 59325
+            "newDailyNsoDeathsByDeathDate": 110
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-06",
-            "cumDailyNsoDeathsByDeathDate": 59215
+            "newDailyNsoDeathsByDeathDate": 84
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-05",
-            "cumDailyNsoDeathsByDeathDate": 59131
+            "newDailyNsoDeathsByDeathDate": 68
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-04",
-            "cumDailyNsoDeathsByDeathDate": 59063
+            "newDailyNsoDeathsByDeathDate": 63
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-03",
-            "cumDailyNsoDeathsByDeathDate": 59000
+            "newDailyNsoDeathsByDeathDate": 70
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-02",
-            "cumDailyNsoDeathsByDeathDate": 58930
+            "newDailyNsoDeathsByDeathDate": 74
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-10-01",
-            "cumDailyNsoDeathsByDeathDate": 58856
+            "newDailyNsoDeathsByDeathDate": 71
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-30",
-            "cumDailyNsoDeathsByDeathDate": 58785
+            "newDailyNsoDeathsByDeathDate": 61
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-29",
-            "cumDailyNsoDeathsByDeathDate": 58724
+            "newDailyNsoDeathsByDeathDate": 48
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-28",
-            "cumDailyNsoDeathsByDeathDate": 58676
+            "newDailyNsoDeathsByDeathDate": 55
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-27",
-            "cumDailyNsoDeathsByDeathDate": 58621
+            "newDailyNsoDeathsByDeathDate": 56
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-26",
-            "cumDailyNsoDeathsByDeathDate": 58565
+            "newDailyNsoDeathsByDeathDate": 47
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-25",
-            "cumDailyNsoDeathsByDeathDate": 58518
+            "newDailyNsoDeathsByDeathDate": 40
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-24",
-            "cumDailyNsoDeathsByDeathDate": 58478
+            "newDailyNsoDeathsByDeathDate": 34
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-23",
-            "cumDailyNsoDeathsByDeathDate": 58444
+            "newDailyNsoDeathsByDeathDate": 58
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-22",
-            "cumDailyNsoDeathsByDeathDate": 58386
+            "newDailyNsoDeathsByDeathDate": 39
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-21",
-            "cumDailyNsoDeathsByDeathDate": 58347
+            "newDailyNsoDeathsByDeathDate": 30
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-20",
-            "cumDailyNsoDeathsByDeathDate": 58317
+            "newDailyNsoDeathsByDeathDate": 40
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-19",
-            "cumDailyNsoDeathsByDeathDate": 58277
+            "newDailyNsoDeathsByDeathDate": 25
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-18",
-            "cumDailyNsoDeathsByDeathDate": 58252
+            "newDailyNsoDeathsByDeathDate": 30
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-17",
-            "cumDailyNsoDeathsByDeathDate": 58222
+            "newDailyNsoDeathsByDeathDate": 38
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-16",
-            "cumDailyNsoDeathsByDeathDate": 58184
+            "newDailyNsoDeathsByDeathDate": 31
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-15",
-            "cumDailyNsoDeathsByDeathDate": 58153
+            "newDailyNsoDeathsByDeathDate": 26
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-14",
-            "cumDailyNsoDeathsByDeathDate": 58127
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-13",
-            "cumDailyNsoDeathsByDeathDate": 58106
+            "newDailyNsoDeathsByDeathDate": 20
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-12",
-            "cumDailyNsoDeathsByDeathDate": 58086
+            "newDailyNsoDeathsByDeathDate": 23
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-11",
-            "cumDailyNsoDeathsByDeathDate": 58063
+            "newDailyNsoDeathsByDeathDate": 20
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-10",
-            "cumDailyNsoDeathsByDeathDate": 58043
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-09",
-            "cumDailyNsoDeathsByDeathDate": 58027
+            "newDailyNsoDeathsByDeathDate": 14
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-08",
-            "cumDailyNsoDeathsByDeathDate": 58013
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-07",
-            "cumDailyNsoDeathsByDeathDate": 57997
+            "newDailyNsoDeathsByDeathDate": 24
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-06",
-            "cumDailyNsoDeathsByDeathDate": 57973
+            "newDailyNsoDeathsByDeathDate": 13
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-05",
-            "cumDailyNsoDeathsByDeathDate": 57960
+            "newDailyNsoDeathsByDeathDate": 14
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-04",
-            "cumDailyNsoDeathsByDeathDate": 57946
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-03",
-            "cumDailyNsoDeathsByDeathDate": 57931
+            "newDailyNsoDeathsByDeathDate": 9
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-02",
-            "cumDailyNsoDeathsByDeathDate": 57922
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-09-01",
-            "cumDailyNsoDeathsByDeathDate": 57907
+            "newDailyNsoDeathsByDeathDate": 11
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-31",
-            "cumDailyNsoDeathsByDeathDate": 57896
+            "newDailyNsoDeathsByDeathDate": 18
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-30",
-            "cumDailyNsoDeathsByDeathDate": 57878
+            "newDailyNsoDeathsByDeathDate": 11
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-29",
-            "cumDailyNsoDeathsByDeathDate": 57867
+            "newDailyNsoDeathsByDeathDate": 8
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-28",
-            "cumDailyNsoDeathsByDeathDate": 57859
+            "newDailyNsoDeathsByDeathDate": 12
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-27",
-            "cumDailyNsoDeathsByDeathDate": 57847
+            "newDailyNsoDeathsByDeathDate": 12
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-26",
-            "cumDailyNsoDeathsByDeathDate": 57835
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-25",
-            "cumDailyNsoDeathsByDeathDate": 57819
+            "newDailyNsoDeathsByDeathDate": 22
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-24",
-            "cumDailyNsoDeathsByDeathDate": 57797
+            "newDailyNsoDeathsByDeathDate": 10
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-23",
-            "cumDailyNsoDeathsByDeathDate": 57787
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-22",
-            "cumDailyNsoDeathsByDeathDate": 57770
+            "newDailyNsoDeathsByDeathDate": 12
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-21",
-            "cumDailyNsoDeathsByDeathDate": 57758
+            "newDailyNsoDeathsByDeathDate": 10
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-20",
-            "cumDailyNsoDeathsByDeathDate": 57748
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-19",
-            "cumDailyNsoDeathsByDeathDate": 57732
+            "newDailyNsoDeathsByDeathDate": 13
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-18",
-            "cumDailyNsoDeathsByDeathDate": 57719
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-17",
-            "cumDailyNsoDeathsByDeathDate": 57704
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-16",
-            "cumDailyNsoDeathsByDeathDate": 57683
+            "newDailyNsoDeathsByDeathDate": 15
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-15",
-            "cumDailyNsoDeathsByDeathDate": 57668
+            "newDailyNsoDeathsByDeathDate": 23
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-14",
-            "cumDailyNsoDeathsByDeathDate": 57645
+            "newDailyNsoDeathsByDeathDate": 18
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-13",
-            "cumDailyNsoDeathsByDeathDate": 57627
+            "newDailyNsoDeathsByDeathDate": 23
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-12",
-            "cumDailyNsoDeathsByDeathDate": 57604
+            "newDailyNsoDeathsByDeathDate": 24
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-11",
-            "cumDailyNsoDeathsByDeathDate": 57580
+            "newDailyNsoDeathsByDeathDate": 20
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-10",
-            "cumDailyNsoDeathsByDeathDate": 57560
+            "newDailyNsoDeathsByDeathDate": 25
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-09",
-            "cumDailyNsoDeathsByDeathDate": 57535
+            "newDailyNsoDeathsByDeathDate": 19
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-08",
-            "cumDailyNsoDeathsByDeathDate": 57516
+            "newDailyNsoDeathsByDeathDate": 22
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-07",
-            "cumDailyNsoDeathsByDeathDate": 57494
+            "newDailyNsoDeathsByDeathDate": 24
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-06",
-            "cumDailyNsoDeathsByDeathDate": 57470
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-05",
-            "cumDailyNsoDeathsByDeathDate": 57449
+            "newDailyNsoDeathsByDeathDate": 13
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-04",
-            "cumDailyNsoDeathsByDeathDate": 57436
+            "newDailyNsoDeathsByDeathDate": 27
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-03",
-            "cumDailyNsoDeathsByDeathDate": 57409
+            "newDailyNsoDeathsByDeathDate": 23
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-02",
-            "cumDailyNsoDeathsByDeathDate": 57386
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-08-01",
-            "cumDailyNsoDeathsByDeathDate": 57369
+            "newDailyNsoDeathsByDeathDate": 20
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-31",
-            "cumDailyNsoDeathsByDeathDate": 57349
+            "newDailyNsoDeathsByDeathDate": 31
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-30",
-            "cumDailyNsoDeathsByDeathDate": 57318
+            "newDailyNsoDeathsByDeathDate": 17
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-29",
-            "cumDailyNsoDeathsByDeathDate": 57301
+            "newDailyNsoDeathsByDeathDate": 28
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-28",
-            "cumDailyNsoDeathsByDeathDate": 57273
+            "newDailyNsoDeathsByDeathDate": 26
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-27",
-            "cumDailyNsoDeathsByDeathDate": 57247
+            "newDailyNsoDeathsByDeathDate": 18
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-26",
-            "cumDailyNsoDeathsByDeathDate": 57229
+            "newDailyNsoDeathsByDeathDate": 32
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-25",
-            "cumDailyNsoDeathsByDeathDate": 57197
+            "newDailyNsoDeathsByDeathDate": 23
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-24",
-            "cumDailyNsoDeathsByDeathDate": 57174
+            "newDailyNsoDeathsByDeathDate": 19
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-23",
-            "cumDailyNsoDeathsByDeathDate": 57155
+            "newDailyNsoDeathsByDeathDate": 36
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-22",
-            "cumDailyNsoDeathsByDeathDate": 57119
+            "newDailyNsoDeathsByDeathDate": 34
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-21",
-            "cumDailyNsoDeathsByDeathDate": 57085
+            "newDailyNsoDeathsByDeathDate": 31
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-20",
-            "cumDailyNsoDeathsByDeathDate": 57054
+            "newDailyNsoDeathsByDeathDate": 31
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-19",
-            "cumDailyNsoDeathsByDeathDate": 57023
+            "newDailyNsoDeathsByDeathDate": 24
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-18",
-            "cumDailyNsoDeathsByDeathDate": 56999
+            "newDailyNsoDeathsByDeathDate": 31
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-17",
-            "cumDailyNsoDeathsByDeathDate": 56968
+            "newDailyNsoDeathsByDeathDate": 34
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-16",
-            "cumDailyNsoDeathsByDeathDate": 56934
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-15",
-            "cumDailyNsoDeathsByDeathDate": 56913
+            "newDailyNsoDeathsByDeathDate": 41
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-14",
-            "cumDailyNsoDeathsByDeathDate": 56872
+            "newDailyNsoDeathsByDeathDate": 42
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-13",
-            "cumDailyNsoDeathsByDeathDate": 56830
+            "newDailyNsoDeathsByDeathDate": 45
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-12",
-            "cumDailyNsoDeathsByDeathDate": 56785
+            "newDailyNsoDeathsByDeathDate": 32
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-11",
-            "cumDailyNsoDeathsByDeathDate": 56753
+            "newDailyNsoDeathsByDeathDate": 38
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-10",
-            "cumDailyNsoDeathsByDeathDate": 56715
+            "newDailyNsoDeathsByDeathDate": 44
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-09",
-            "cumDailyNsoDeathsByDeathDate": 56671
+            "newDailyNsoDeathsByDeathDate": 61
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-08",
-            "cumDailyNsoDeathsByDeathDate": 56610
+            "newDailyNsoDeathsByDeathDate": 47
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-07",
-            "cumDailyNsoDeathsByDeathDate": 56563
+            "newDailyNsoDeathsByDeathDate": 43
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-06",
-            "cumDailyNsoDeathsByDeathDate": 56520
+            "newDailyNsoDeathsByDeathDate": 54
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-05",
-            "cumDailyNsoDeathsByDeathDate": 56466
+            "newDailyNsoDeathsByDeathDate": 52
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-04",
-            "cumDailyNsoDeathsByDeathDate": 56414
+            "newDailyNsoDeathsByDeathDate": 52
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-03",
-            "cumDailyNsoDeathsByDeathDate": 56362
+            "newDailyNsoDeathsByDeathDate": 48
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-02",
-            "cumDailyNsoDeathsByDeathDate": 56314
+            "newDailyNsoDeathsByDeathDate": 61
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-07-01",
-            "cumDailyNsoDeathsByDeathDate": 56253
+            "newDailyNsoDeathsByDeathDate": 54
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-30",
-            "cumDailyNsoDeathsByDeathDate": 56199
+            "newDailyNsoDeathsByDeathDate": 81
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-29",
-            "cumDailyNsoDeathsByDeathDate": 56118
+            "newDailyNsoDeathsByDeathDate": 69
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-28",
-            "cumDailyNsoDeathsByDeathDate": 56049
+            "newDailyNsoDeathsByDeathDate": 71
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-27",
-            "cumDailyNsoDeathsByDeathDate": 55978
+            "newDailyNsoDeathsByDeathDate": 73
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-26",
-            "cumDailyNsoDeathsByDeathDate": 55905
+            "newDailyNsoDeathsByDeathDate": 79
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-25",
-            "cumDailyNsoDeathsByDeathDate": 55826
+            "newDailyNsoDeathsByDeathDate": 108
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-24",
-            "cumDailyNsoDeathsByDeathDate": 55718
+            "newDailyNsoDeathsByDeathDate": 101
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-23",
-            "cumDailyNsoDeathsByDeathDate": 55617
+            "newDailyNsoDeathsByDeathDate": 97
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-22",
-            "cumDailyNsoDeathsByDeathDate": 55520
+            "newDailyNsoDeathsByDeathDate": 83
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-21",
-            "cumDailyNsoDeathsByDeathDate": 55437
+            "newDailyNsoDeathsByDeathDate": 80
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-20",
-            "cumDailyNsoDeathsByDeathDate": 55357
+            "newDailyNsoDeathsByDeathDate": 87
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-19",
-            "cumDailyNsoDeathsByDeathDate": 55270
+            "newDailyNsoDeathsByDeathDate": 88
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-18",
-            "cumDailyNsoDeathsByDeathDate": 55182
+            "newDailyNsoDeathsByDeathDate": 90
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-17",
-            "cumDailyNsoDeathsByDeathDate": 55092
+            "newDailyNsoDeathsByDeathDate": 105
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-16",
-            "cumDailyNsoDeathsByDeathDate": 54987
+            "newDailyNsoDeathsByDeathDate": 120
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-15",
-            "cumDailyNsoDeathsByDeathDate": 54867
+            "newDailyNsoDeathsByDeathDate": 107
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-14",
-            "cumDailyNsoDeathsByDeathDate": 54760
+            "newDailyNsoDeathsByDeathDate": 136
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-13",
-            "cumDailyNsoDeathsByDeathDate": 54624
+            "newDailyNsoDeathsByDeathDate": 101
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-12",
-            "cumDailyNsoDeathsByDeathDate": 54523
+            "newDailyNsoDeathsByDeathDate": 135
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-11",
-            "cumDailyNsoDeathsByDeathDate": 54388
+            "newDailyNsoDeathsByDeathDate": 121
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-10",
-            "cumDailyNsoDeathsByDeathDate": 54267
+            "newDailyNsoDeathsByDeathDate": 166
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-09",
-            "cumDailyNsoDeathsByDeathDate": 54101
+            "newDailyNsoDeathsByDeathDate": 137
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-08",
-            "cumDailyNsoDeathsByDeathDate": 53964
+            "newDailyNsoDeathsByDeathDate": 161
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-07",
-            "cumDailyNsoDeathsByDeathDate": 53803
+            "newDailyNsoDeathsByDeathDate": 163
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-06",
-            "cumDailyNsoDeathsByDeathDate": 53640
+            "newDailyNsoDeathsByDeathDate": 151
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-05",
-            "cumDailyNsoDeathsByDeathDate": 53489
+            "newDailyNsoDeathsByDeathDate": 184
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-04",
-            "cumDailyNsoDeathsByDeathDate": 53305
+            "newDailyNsoDeathsByDeathDate": 183
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-03",
-            "cumDailyNsoDeathsByDeathDate": 53122
+            "newDailyNsoDeathsByDeathDate": 203
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-02",
-            "cumDailyNsoDeathsByDeathDate": 52919
+            "newDailyNsoDeathsByDeathDate": 233
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-06-01",
-            "cumDailyNsoDeathsByDeathDate": 52686
+            "newDailyNsoDeathsByDeathDate": 199
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-31",
-            "cumDailyNsoDeathsByDeathDate": 52487
+            "newDailyNsoDeathsByDeathDate": 195
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-30",
-            "cumDailyNsoDeathsByDeathDate": 52292
+            "newDailyNsoDeathsByDeathDate": 219
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-29",
-            "cumDailyNsoDeathsByDeathDate": 52073
+            "newDailyNsoDeathsByDeathDate": 254
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-28",
-            "cumDailyNsoDeathsByDeathDate": 51819
+            "newDailyNsoDeathsByDeathDate": 288
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-27",
-            "cumDailyNsoDeathsByDeathDate": 51531
+            "newDailyNsoDeathsByDeathDate": 282
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-26",
-            "cumDailyNsoDeathsByDeathDate": 51249
+            "newDailyNsoDeathsByDeathDate": 300
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-25",
-            "cumDailyNsoDeathsByDeathDate": 50949
+            "newDailyNsoDeathsByDeathDate": 279
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-24",
-            "cumDailyNsoDeathsByDeathDate": 50670
+            "newDailyNsoDeathsByDeathDate": 281
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-23",
-            "cumDailyNsoDeathsByDeathDate": 50389
+            "newDailyNsoDeathsByDeathDate": 284
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-22",
-            "cumDailyNsoDeathsByDeathDate": 50105
+            "newDailyNsoDeathsByDeathDate": 300
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-21",
-            "cumDailyNsoDeathsByDeathDate": 49805
+            "newDailyNsoDeathsByDeathDate": 342
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-20",
-            "cumDailyNsoDeathsByDeathDate": 49463
+            "newDailyNsoDeathsByDeathDate": 353
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-19",
-            "cumDailyNsoDeathsByDeathDate": 49110
+            "newDailyNsoDeathsByDeathDate": 372
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-18",
-            "cumDailyNsoDeathsByDeathDate": 48738
+            "newDailyNsoDeathsByDeathDate": 407
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-17",
-            "cumDailyNsoDeathsByDeathDate": 48331
+            "newDailyNsoDeathsByDeathDate": 377
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-16",
-            "cumDailyNsoDeathsByDeathDate": 47954
+            "newDailyNsoDeathsByDeathDate": 419
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-15",
-            "cumDailyNsoDeathsByDeathDate": 47535
+            "newDailyNsoDeathsByDeathDate": 421
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-14",
-            "cumDailyNsoDeathsByDeathDate": 47114
+            "newDailyNsoDeathsByDeathDate": 465
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-13",
-            "cumDailyNsoDeathsByDeathDate": 46649
+            "newDailyNsoDeathsByDeathDate": 454
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-12",
-            "cumDailyNsoDeathsByDeathDate": 46195
+            "newDailyNsoDeathsByDeathDate": 441
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-11",
-            "cumDailyNsoDeathsByDeathDate": 45754
+            "newDailyNsoDeathsByDeathDate": 428
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-10",
-            "cumDailyNsoDeathsByDeathDate": 45326
+            "newDailyNsoDeathsByDeathDate": 494
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-09",
-            "cumDailyNsoDeathsByDeathDate": 44832
+            "newDailyNsoDeathsByDeathDate": 539
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-08",
-            "cumDailyNsoDeathsByDeathDate": 44293
+            "newDailyNsoDeathsByDeathDate": 569
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-07",
-            "cumDailyNsoDeathsByDeathDate": 43724
+            "newDailyNsoDeathsByDeathDate": 631
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-06",
-            "cumDailyNsoDeathsByDeathDate": 43093
+            "newDailyNsoDeathsByDeathDate": 627
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-05",
-            "cumDailyNsoDeathsByDeathDate": 42466
+            "newDailyNsoDeathsByDeathDate": 642
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-04",
-            "cumDailyNsoDeathsByDeathDate": 41824
+            "newDailyNsoDeathsByDeathDate": 676
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-03",
-            "cumDailyNsoDeathsByDeathDate": 41148
+            "newDailyNsoDeathsByDeathDate": 662
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-02",
-            "cumDailyNsoDeathsByDeathDate": 40486
+            "newDailyNsoDeathsByDeathDate": 705
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-05-01",
-            "cumDailyNsoDeathsByDeathDate": 39781
+            "newDailyNsoDeathsByDeathDate": 786
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-30",
-            "cumDailyNsoDeathsByDeathDate": 38995
+            "newDailyNsoDeathsByDeathDate": 780
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-29",
-            "cumDailyNsoDeathsByDeathDate": 38215
+            "newDailyNsoDeathsByDeathDate": 817
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-28",
-            "cumDailyNsoDeathsByDeathDate": 37398
+            "newDailyNsoDeathsByDeathDate": 801
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-27",
-            "cumDailyNsoDeathsByDeathDate": 36597
+            "newDailyNsoDeathsByDeathDate": 866
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-26",
-            "cumDailyNsoDeathsByDeathDate": 35731
+            "newDailyNsoDeathsByDeathDate": 894
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-25",
-            "cumDailyNsoDeathsByDeathDate": 34837
+            "newDailyNsoDeathsByDeathDate": 919
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-24",
-            "cumDailyNsoDeathsByDeathDate": 33918
+            "newDailyNsoDeathsByDeathDate": 1005
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-23",
-            "cumDailyNsoDeathsByDeathDate": 32913
+            "newDailyNsoDeathsByDeathDate": 1038
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-22",
-            "cumDailyNsoDeathsByDeathDate": 31875
+            "newDailyNsoDeathsByDeathDate": 1102
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-21",
-            "cumDailyNsoDeathsByDeathDate": 30773
+            "newDailyNsoDeathsByDeathDate": 1085
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-20",
-            "cumDailyNsoDeathsByDeathDate": 29688
+            "newDailyNsoDeathsByDeathDate": 1160
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-19",
-            "cumDailyNsoDeathsByDeathDate": 28528
+            "newDailyNsoDeathsByDeathDate": 1122
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-18",
-            "cumDailyNsoDeathsByDeathDate": 27406
+            "newDailyNsoDeathsByDeathDate": 1189
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-17",
-            "cumDailyNsoDeathsByDeathDate": 26217
+            "newDailyNsoDeathsByDeathDate": 1272
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-16",
-            "cumDailyNsoDeathsByDeathDate": 24945
+            "newDailyNsoDeathsByDeathDate": 1322
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-15",
-            "cumDailyNsoDeathsByDeathDate": 23623
+            "newDailyNsoDeathsByDeathDate": 1276
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-14",
-            "cumDailyNsoDeathsByDeathDate": 22347
+            "newDailyNsoDeathsByDeathDate": 1254
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-13",
-            "cumDailyNsoDeathsByDeathDate": 21093
+            "newDailyNsoDeathsByDeathDate": 1232
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-12",
-            "cumDailyNsoDeathsByDeathDate": 19861
+            "newDailyNsoDeathsByDeathDate": 1378
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-11",
-            "cumDailyNsoDeathsByDeathDate": 18483
+            "newDailyNsoDeathsByDeathDate": 1365
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-10",
-            "cumDailyNsoDeathsByDeathDate": 17118
+            "newDailyNsoDeathsByDeathDate": 1319
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-09",
-            "cumDailyNsoDeathsByDeathDate": 15799
+            "newDailyNsoDeathsByDeathDate": 1375
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-08",
-            "cumDailyNsoDeathsByDeathDate": 14424
+            "newDailyNsoDeathsByDeathDate": 1461
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-07",
-            "cumDailyNsoDeathsByDeathDate": 12963
+            "newDailyNsoDeathsByDeathDate": 1293
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-06",
-            "cumDailyNsoDeathsByDeathDate": 11670
+            "newDailyNsoDeathsByDeathDate": 1170
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-05",
-            "cumDailyNsoDeathsByDeathDate": 10500
+            "newDailyNsoDeathsByDeathDate": 1220
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-04",
-            "cumDailyNsoDeathsByDeathDate": 9280
+            "newDailyNsoDeathsByDeathDate": 1147
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-03",
-            "cumDailyNsoDeathsByDeathDate": 8133
+            "newDailyNsoDeathsByDeathDate": 1061
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-02",
-            "cumDailyNsoDeathsByDeathDate": 7072
+            "newDailyNsoDeathsByDeathDate": 1007
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-04-01",
-            "cumDailyNsoDeathsByDeathDate": 6065
+            "newDailyNsoDeathsByDeathDate": 924
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-31",
-            "cumDailyNsoDeathsByDeathDate": 5141
+            "newDailyNsoDeathsByDeathDate": 831
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-30",
-            "cumDailyNsoDeathsByDeathDate": 4310
+            "newDailyNsoDeathsByDeathDate": 711
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-29",
-            "cumDailyNsoDeathsByDeathDate": 3599
+            "newDailyNsoDeathsByDeathDate": 586
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-28",
-            "cumDailyNsoDeathsByDeathDate": 3013
+            "newDailyNsoDeathsByDeathDate": 516
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-27",
-            "cumDailyNsoDeathsByDeathDate": 2497
+            "newDailyNsoDeathsByDeathDate": 463
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-26",
-            "cumDailyNsoDeathsByDeathDate": 2034
+            "newDailyNsoDeathsByDeathDate": 413
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-25",
-            "cumDailyNsoDeathsByDeathDate": 1621
+            "newDailyNsoDeathsByDeathDate": 337
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-24",
-            "cumDailyNsoDeathsByDeathDate": 1284
+            "newDailyNsoDeathsByDeathDate": 263
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-23",
-            "cumDailyNsoDeathsByDeathDate": 1021
+            "newDailyNsoDeathsByDeathDate": 208
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-22",
-            "cumDailyNsoDeathsByDeathDate": 813
+            "newDailyNsoDeathsByDeathDate": 183
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-21",
-            "cumDailyNsoDeathsByDeathDate": 630
+            "newDailyNsoDeathsByDeathDate": 144
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-20",
-            "cumDailyNsoDeathsByDeathDate": 486
+            "newDailyNsoDeathsByDeathDate": 118
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-19",
-            "cumDailyNsoDeathsByDeathDate": 368
+            "newDailyNsoDeathsByDeathDate": 79
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-18",
-            "cumDailyNsoDeathsByDeathDate": 289
+            "newDailyNsoDeathsByDeathDate": 73
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-17",
-            "cumDailyNsoDeathsByDeathDate": 216
+            "newDailyNsoDeathsByDeathDate": 58
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-16",
-            "cumDailyNsoDeathsByDeathDate": 158
+            "newDailyNsoDeathsByDeathDate": 51
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-15",
-            "cumDailyNsoDeathsByDeathDate": 107
+            "newDailyNsoDeathsByDeathDate": 31
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-14",
-            "cumDailyNsoDeathsByDeathDate": 76
+            "newDailyNsoDeathsByDeathDate": 21
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-13",
-            "cumDailyNsoDeathsByDeathDate": 55
+            "newDailyNsoDeathsByDeathDate": 16
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-12",
-            "cumDailyNsoDeathsByDeathDate": 39
+            "newDailyNsoDeathsByDeathDate": 13
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-11",
-            "cumDailyNsoDeathsByDeathDate": 26
+            "newDailyNsoDeathsByDeathDate": 7
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-10",
-            "cumDailyNsoDeathsByDeathDate": 19
+            "newDailyNsoDeathsByDeathDate": 3
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-09",
-            "cumDailyNsoDeathsByDeathDate": 16
+            "newDailyNsoDeathsByDeathDate": 5
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-08",
-            "cumDailyNsoDeathsByDeathDate": 11
+            "newDailyNsoDeathsByDeathDate": 2
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-07",
-            "cumDailyNsoDeathsByDeathDate": 9
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-06",
-            "cumDailyNsoDeathsByDeathDate": 9
+            "newDailyNsoDeathsByDeathDate": 2
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-05",
-            "cumDailyNsoDeathsByDeathDate": 7
+            "newDailyNsoDeathsByDeathDate": 2
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-04",
-            "cumDailyNsoDeathsByDeathDate": 5
+            "newDailyNsoDeathsByDeathDate": 1
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-03",
-            "cumDailyNsoDeathsByDeathDate": 4
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-02",
-            "cumDailyNsoDeathsByDeathDate": 4
+            "newDailyNsoDeathsByDeathDate": 1
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-03-01",
-            "cumDailyNsoDeathsByDeathDate": 3
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-29",
-            "cumDailyNsoDeathsByDeathDate": 3
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-28",
-            "cumDailyNsoDeathsByDeathDate": 3
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-27",
-            "cumDailyNsoDeathsByDeathDate": 3
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-26",
-            "cumDailyNsoDeathsByDeathDate": 3
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-25",
-            "cumDailyNsoDeathsByDeathDate": 3
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-24",
-            "cumDailyNsoDeathsByDeathDate": 3
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-23",
-            "cumDailyNsoDeathsByDeathDate": 3
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-22",
-            "cumDailyNsoDeathsByDeathDate": 3
+            "newDailyNsoDeathsByDeathDate": 1
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-21",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-20",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-19",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-18",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-17",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-16",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-15",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-14",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-13",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-12",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-11",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-10",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-09",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-08",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-07",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-06",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-05",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-04",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-03",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-02",
-            "cumDailyNsoDeathsByDeathDate": 2
+            "newDailyNsoDeathsByDeathDate": 1
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-02-01",
-            "cumDailyNsoDeathsByDeathDate": 1
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-01-31",
-            "cumDailyNsoDeathsByDeathDate": 1
+            "newDailyNsoDeathsByDeathDate": 0
         },
         {
             "areaType": "overview",
             "areaCode": "K02000001",
             "areaName": "United Kingdom",
             "date": "2020-01-30",
-            "cumDailyNsoDeathsByDeathDate": 1
+            "newDailyNsoDeathsByDeathDate": 1
         }
-    
+    ]
+
+export const newDailyNsoDeathsByDeathDateScotland = [
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-02-04",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-02-03",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-02-02",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-02-01",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-31",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-30",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-29",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-28",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-27",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-26",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-25",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-24",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-23",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-22",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-21",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-20",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-19",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-18",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-17",
+            "newDailyNsoDeathsByDeathDate": 17
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-16",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-15",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-14",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-13",
+            "newDailyNsoDeathsByDeathDate": 29
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-12",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-11",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-10",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-09",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-08",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-07",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-06",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-05",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-04",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-03",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-02",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2022-01-01",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-31",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-30",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-29",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-28",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-27",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-26",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-25",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-24",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-23",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-22",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-21",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-20",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-19",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-18",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-17",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-16",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-15",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-14",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-13",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-12",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-11",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-10",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-09",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-08",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-07",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-06",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-05",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-04",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-03",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-02",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-12-01",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-30",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-29",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-28",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-27",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-26",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-25",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-24",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-23",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-22",
+            "newDailyNsoDeathsByDeathDate": 17
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-21",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-20",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-19",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-18",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-17",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-16",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-15",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-14",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-13",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-12",
+            "newDailyNsoDeathsByDeathDate": 17
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-11",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-10",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-09",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-08",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-07",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-06",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-05",
+            "newDailyNsoDeathsByDeathDate": 17
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-04",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-03",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-02",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-11-01",
+            "newDailyNsoDeathsByDeathDate": 28
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-31",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-30",
+            "newDailyNsoDeathsByDeathDate": 17
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-29",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-28",
+            "newDailyNsoDeathsByDeathDate": 23
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-27",
+            "newDailyNsoDeathsByDeathDate": 13
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-26",
+            "newDailyNsoDeathsByDeathDate": 23
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-25",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-24",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-23",
+            "newDailyNsoDeathsByDeathDate": 23
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-22",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-21",
+            "newDailyNsoDeathsByDeathDate": 23
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-20",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-19",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-18",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-17",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-16",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-15",
+            "newDailyNsoDeathsByDeathDate": 13
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-14",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-13",
+            "newDailyNsoDeathsByDeathDate": 17
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-12",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-11",
+            "newDailyNsoDeathsByDeathDate": 27
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-10",
+            "newDailyNsoDeathsByDeathDate": 17
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-09",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-08",
+            "newDailyNsoDeathsByDeathDate": 13
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-07",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-06",
+            "newDailyNsoDeathsByDeathDate": 13
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-05",
+            "newDailyNsoDeathsByDeathDate": 28
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-04",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-03",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-02",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-10-01",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-30",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-29",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-28",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-27",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-26",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-25",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-24",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-23",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-22",
+            "newDailyNsoDeathsByDeathDate": 30
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-21",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-20",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-19",
+            "newDailyNsoDeathsByDeathDate": 30
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-18",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-17",
+            "newDailyNsoDeathsByDeathDate": 23
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-16",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-15",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-14",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-13",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-12",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-11",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-10",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-09",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-08",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-07",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-06",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-05",
+            "newDailyNsoDeathsByDeathDate": 17
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-04",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-03",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-02",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-09-01",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-31",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-30",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-29",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-28",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-27",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-26",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-25",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-24",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-23",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-22",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-21",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-20",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-19",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-18",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-17",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-16",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-15",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-14",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-13",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-12",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-11",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-10",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-09",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-08",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-07",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-06",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-05",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-04",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-03",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-02",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-08-01",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-31",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-30",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-29",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-28",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-27",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-26",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-25",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-24",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-23",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-22",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-21",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-20",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-19",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-18",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-17",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-16",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-15",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-14",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-13",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-12",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-11",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-10",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-09",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-08",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-07",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-06",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-05",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-04",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-03",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-02",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-07-01",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-30",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-29",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-28",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-27",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-26",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-25",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-24",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-23",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-22",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-21",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-20",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-19",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-18",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-17",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-16",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-15",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-14",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-13",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-12",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-11",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-10",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-09",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-08",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-07",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-06",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-05",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-04",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-03",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-02",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-06-01",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-31",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-30",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-29",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-28",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-27",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-26",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-25",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-24",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-23",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-22",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-21",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-20",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-19",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-18",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-17",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-16",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-15",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-14",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-13",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-12",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-11",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-10",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-09",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-08",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-07",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-06",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-05",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-04",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-03",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-02",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-05-01",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-30",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-29",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-28",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-27",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-26",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-25",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-24",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-23",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-22",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-21",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-20",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-19",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-18",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-17",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-16",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-15",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-14",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-13",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-12",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-11",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-10",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-09",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-08",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-07",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-06",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-05",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-04",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-03",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-02",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-04-01",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-31",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-30",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-29",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-28",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-27",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-26",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-25",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-24",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-23",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-22",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-21",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-20",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-19",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-18",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-17",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-16",
+            "newDailyNsoDeathsByDeathDate": 13
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-15",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-14",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-13",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-12",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-11",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-10",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-09",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-08",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-07",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-06",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-05",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-04",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-03",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-02",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-03-01",
+            "newDailyNsoDeathsByDeathDate": 23
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-28",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-27",
+            "newDailyNsoDeathsByDeathDate": 27
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-26",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-25",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-24",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-23",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-22",
+            "newDailyNsoDeathsByDeathDate": 26
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-21",
+            "newDailyNsoDeathsByDeathDate": 28
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-20",
+            "newDailyNsoDeathsByDeathDate": 36
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-19",
+            "newDailyNsoDeathsByDeathDate": 49
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-18",
+            "newDailyNsoDeathsByDeathDate": 41
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-17",
+            "newDailyNsoDeathsByDeathDate": 35
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-16",
+            "newDailyNsoDeathsByDeathDate": 34
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-15",
+            "newDailyNsoDeathsByDeathDate": 39
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-14",
+            "newDailyNsoDeathsByDeathDate": 42
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-13",
+            "newDailyNsoDeathsByDeathDate": 35
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-12",
+            "newDailyNsoDeathsByDeathDate": 47
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-11",
+            "newDailyNsoDeathsByDeathDate": 44
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-10",
+            "newDailyNsoDeathsByDeathDate": 42
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-09",
+            "newDailyNsoDeathsByDeathDate": 58
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-08",
+            "newDailyNsoDeathsByDeathDate": 44
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-07",
+            "newDailyNsoDeathsByDeathDate": 48
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-06",
+            "newDailyNsoDeathsByDeathDate": 52
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-05",
+            "newDailyNsoDeathsByDeathDate": 50
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-04",
+            "newDailyNsoDeathsByDeathDate": 40
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-03",
+            "newDailyNsoDeathsByDeathDate": 52
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-02",
+            "newDailyNsoDeathsByDeathDate": 51
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-02-01",
+            "newDailyNsoDeathsByDeathDate": 49
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-31",
+            "newDailyNsoDeathsByDeathDate": 51
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-30",
+            "newDailyNsoDeathsByDeathDate": 49
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-29",
+            "newDailyNsoDeathsByDeathDate": 62
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-28",
+            "newDailyNsoDeathsByDeathDate": 51
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-27",
+            "newDailyNsoDeathsByDeathDate": 63
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-26",
+            "newDailyNsoDeathsByDeathDate": 54
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-25",
+            "newDailyNsoDeathsByDeathDate": 56
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-24",
+            "newDailyNsoDeathsByDeathDate": 74
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-23",
+            "newDailyNsoDeathsByDeathDate": 57
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-22",
+            "newDailyNsoDeathsByDeathDate": 77
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-21",
+            "newDailyNsoDeathsByDeathDate": 67
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-20",
+            "newDailyNsoDeathsByDeathDate": 68
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-19",
+            "newDailyNsoDeathsByDeathDate": 77
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-18",
+            "newDailyNsoDeathsByDeathDate": 73
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-17",
+            "newDailyNsoDeathsByDeathDate": 50
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-16",
+            "newDailyNsoDeathsByDeathDate": 77
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-15",
+            "newDailyNsoDeathsByDeathDate": 64
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-14",
+            "newDailyNsoDeathsByDeathDate": 64
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-13",
+            "newDailyNsoDeathsByDeathDate": 53
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-12",
+            "newDailyNsoDeathsByDeathDate": 56
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-11",
+            "newDailyNsoDeathsByDeathDate": 54
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-10",
+            "newDailyNsoDeathsByDeathDate": 63
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-09",
+            "newDailyNsoDeathsByDeathDate": 39
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-08",
+            "newDailyNsoDeathsByDeathDate": 50
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-07",
+            "newDailyNsoDeathsByDeathDate": 48
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-06",
+            "newDailyNsoDeathsByDeathDate": 55
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-05",
+            "newDailyNsoDeathsByDeathDate": 44
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-04",
+            "newDailyNsoDeathsByDeathDate": 41
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-03",
+            "newDailyNsoDeathsByDeathDate": 48
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-02",
+            "newDailyNsoDeathsByDeathDate": 49
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2021-01-01",
+            "newDailyNsoDeathsByDeathDate": 37
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-31",
+            "newDailyNsoDeathsByDeathDate": 42
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-30",
+            "newDailyNsoDeathsByDeathDate": 36
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-29",
+            "newDailyNsoDeathsByDeathDate": 32
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-28",
+            "newDailyNsoDeathsByDeathDate": 32
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-27",
+            "newDailyNsoDeathsByDeathDate": 41
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-26",
+            "newDailyNsoDeathsByDeathDate": 35
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-25",
+            "newDailyNsoDeathsByDeathDate": 42
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-24",
+            "newDailyNsoDeathsByDeathDate": 42
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-23",
+            "newDailyNsoDeathsByDeathDate": 36
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-22",
+            "newDailyNsoDeathsByDeathDate": 31
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-21",
+            "newDailyNsoDeathsByDeathDate": 30
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-20",
+            "newDailyNsoDeathsByDeathDate": 32
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-19",
+            "newDailyNsoDeathsByDeathDate": 31
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-18",
+            "newDailyNsoDeathsByDeathDate": 25
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-17",
+            "newDailyNsoDeathsByDeathDate": 39
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-16",
+            "newDailyNsoDeathsByDeathDate": 34
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-15",
+            "newDailyNsoDeathsByDeathDate": 38
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-14",
+            "newDailyNsoDeathsByDeathDate": 38
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-13",
+            "newDailyNsoDeathsByDeathDate": 26
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-12",
+            "newDailyNsoDeathsByDeathDate": 26
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-11",
+            "newDailyNsoDeathsByDeathDate": 23
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-10",
+            "newDailyNsoDeathsByDeathDate": 32
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-09",
+            "newDailyNsoDeathsByDeathDate": 27
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-08",
+            "newDailyNsoDeathsByDeathDate": 33
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-07",
+            "newDailyNsoDeathsByDeathDate": 34
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-06",
+            "newDailyNsoDeathsByDeathDate": 29
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-05",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-04",
+            "newDailyNsoDeathsByDeathDate": 33
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-03",
+            "newDailyNsoDeathsByDeathDate": 40
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-02",
+            "newDailyNsoDeathsByDeathDate": 26
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-12-01",
+            "newDailyNsoDeathsByDeathDate": 28
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-30",
+            "newDailyNsoDeathsByDeathDate": 41
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-29",
+            "newDailyNsoDeathsByDeathDate": 31
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-28",
+            "newDailyNsoDeathsByDeathDate": 43
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-27",
+            "newDailyNsoDeathsByDeathDate": 30
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-26",
+            "newDailyNsoDeathsByDeathDate": 29
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-25",
+            "newDailyNsoDeathsByDeathDate": 38
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-24",
+            "newDailyNsoDeathsByDeathDate": 33
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-23",
+            "newDailyNsoDeathsByDeathDate": 37
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-22",
+            "newDailyNsoDeathsByDeathDate": 42
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-21",
+            "newDailyNsoDeathsByDeathDate": 36
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-20",
+            "newDailyNsoDeathsByDeathDate": 33
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-19",
+            "newDailyNsoDeathsByDeathDate": 29
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-18",
+            "newDailyNsoDeathsByDeathDate": 28
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-17",
+            "newDailyNsoDeathsByDeathDate": 38
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-16",
+            "newDailyNsoDeathsByDeathDate": 34
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-15",
+            "newDailyNsoDeathsByDeathDate": 36
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-14",
+            "newDailyNsoDeathsByDeathDate": 46
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-13",
+            "newDailyNsoDeathsByDeathDate": 41
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-12",
+            "newDailyNsoDeathsByDeathDate": 33
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-11",
+            "newDailyNsoDeathsByDeathDate": 39
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-10",
+            "newDailyNsoDeathsByDeathDate": 41
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-09",
+            "newDailyNsoDeathsByDeathDate": 43
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-08",
+            "newDailyNsoDeathsByDeathDate": 40
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-07",
+            "newDailyNsoDeathsByDeathDate": 38
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-06",
+            "newDailyNsoDeathsByDeathDate": 30
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-05",
+            "newDailyNsoDeathsByDeathDate": 45
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-04",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-03",
+            "newDailyNsoDeathsByDeathDate": 33
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-02",
+            "newDailyNsoDeathsByDeathDate": 29
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-11-01",
+            "newDailyNsoDeathsByDeathDate": 38
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-31",
+            "newDailyNsoDeathsByDeathDate": 27
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-30",
+            "newDailyNsoDeathsByDeathDate": 36
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-29",
+            "newDailyNsoDeathsByDeathDate": 30
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-28",
+            "newDailyNsoDeathsByDeathDate": 30
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-27",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-26",
+            "newDailyNsoDeathsByDeathDate": 32
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-25",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-24",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-23",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-22",
+            "newDailyNsoDeathsByDeathDate": 20
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-21",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-20",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-19",
+            "newDailyNsoDeathsByDeathDate": 18
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-18",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-17",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-16",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-15",
+            "newDailyNsoDeathsByDeathDate": 16
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-14",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-13",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-12",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-11",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-10",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-09",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-08",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-07",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-06",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-05",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-04",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-03",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-02",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-10-01",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-30",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-29",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-28",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-27",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-26",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-25",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-24",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-23",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-22",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-21",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-20",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-19",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-18",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-17",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-16",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-15",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-14",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-13",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-12",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-11",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-10",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-09",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-08",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-07",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-06",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-05",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-04",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-03",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-02",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-09-01",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-31",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-30",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-29",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-28",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-27",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-26",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-25",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-24",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-23",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-22",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-21",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-20",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-19",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-18",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-17",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-16",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-15",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-14",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-13",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-12",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-11",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-10",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-09",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-08",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-07",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-06",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-05",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-04",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-03",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-02",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-08-01",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-31",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-30",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-29",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-28",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-27",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-26",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-25",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-24",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-23",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-22",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-21",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-20",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-19",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-18",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-17",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-16",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-15",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-14",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-13",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-12",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-11",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-10",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-09",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-08",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-07",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-06",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-05",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-04",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-03",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-02",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-07-01",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-30",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-29",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-28",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-27",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-26",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-25",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-24",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-23",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-22",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-21",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-20",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-19",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-18",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-17",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-16",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-15",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-14",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-13",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-12",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-11",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-10",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-09",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-08",
+            "newDailyNsoDeathsByDeathDate": 9
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-07",
+            "newDailyNsoDeathsByDeathDate": 10
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-06",
+            "newDailyNsoDeathsByDeathDate": 8
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-05",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-04",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-03",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-02",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-06-01",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-31",
+            "newDailyNsoDeathsByDeathDate": 11
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-30",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-29",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-28",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-27",
+            "newDailyNsoDeathsByDeathDate": 23
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-26",
+            "newDailyNsoDeathsByDeathDate": 21
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-25",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-24",
+            "newDailyNsoDeathsByDeathDate": 14
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-23",
+            "newDailyNsoDeathsByDeathDate": 15
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-22",
+            "newDailyNsoDeathsByDeathDate": 19
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-21",
+            "newDailyNsoDeathsByDeathDate": 34
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-20",
+            "newDailyNsoDeathsByDeathDate": 29
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-19",
+            "newDailyNsoDeathsByDeathDate": 31
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-18",
+            "newDailyNsoDeathsByDeathDate": 34
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-17",
+            "newDailyNsoDeathsByDeathDate": 34
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-16",
+            "newDailyNsoDeathsByDeathDate": 37
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-15",
+            "newDailyNsoDeathsByDeathDate": 34
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-14",
+            "newDailyNsoDeathsByDeathDate": 50
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-13",
+            "newDailyNsoDeathsByDeathDate": 53
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-12",
+            "newDailyNsoDeathsByDeathDate": 35
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-11",
+            "newDailyNsoDeathsByDeathDate": 45
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-10",
+            "newDailyNsoDeathsByDeathDate": 38
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-09",
+            "newDailyNsoDeathsByDeathDate": 50
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-08",
+            "newDailyNsoDeathsByDeathDate": 58
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-07",
+            "newDailyNsoDeathsByDeathDate": 61
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-06",
+            "newDailyNsoDeathsByDeathDate": 59
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-05",
+            "newDailyNsoDeathsByDeathDate": 67
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-04",
+            "newDailyNsoDeathsByDeathDate": 62
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-03",
+            "newDailyNsoDeathsByDeathDate": 60
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-02",
+            "newDailyNsoDeathsByDeathDate": 60
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-05-01",
+            "newDailyNsoDeathsByDeathDate": 67
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-30",
+            "newDailyNsoDeathsByDeathDate": 68
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-29",
+            "newDailyNsoDeathsByDeathDate": 69
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-28",
+            "newDailyNsoDeathsByDeathDate": 59
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-27",
+            "newDailyNsoDeathsByDeathDate": 85
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-26",
+            "newDailyNsoDeathsByDeathDate": 78
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-25",
+            "newDailyNsoDeathsByDeathDate": 79
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-24",
+            "newDailyNsoDeathsByDeathDate": 76
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-23",
+            "newDailyNsoDeathsByDeathDate": 72
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-22",
+            "newDailyNsoDeathsByDeathDate": 88
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-21",
+            "newDailyNsoDeathsByDeathDate": 96
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-20",
+            "newDailyNsoDeathsByDeathDate": 105
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-19",
+            "newDailyNsoDeathsByDeathDate": 90
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-18",
+            "newDailyNsoDeathsByDeathDate": 95
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-17",
+            "newDailyNsoDeathsByDeathDate": 84
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-16",
+            "newDailyNsoDeathsByDeathDate": 101
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-15",
+            "newDailyNsoDeathsByDeathDate": 94
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-14",
+            "newDailyNsoDeathsByDeathDate": 100
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-13",
+            "newDailyNsoDeathsByDeathDate": 81
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-12",
+            "newDailyNsoDeathsByDeathDate": 75
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-11",
+            "newDailyNsoDeathsByDeathDate": 94
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-10",
+            "newDailyNsoDeathsByDeathDate": 98
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-09",
+            "newDailyNsoDeathsByDeathDate": 108
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-08",
+            "newDailyNsoDeathsByDeathDate": 92
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-07",
+            "newDailyNsoDeathsByDeathDate": 85
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-06",
+            "newDailyNsoDeathsByDeathDate": 91
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-05",
+            "newDailyNsoDeathsByDeathDate": 86
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-04",
+            "newDailyNsoDeathsByDeathDate": 56
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-03",
+            "newDailyNsoDeathsByDeathDate": 75
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-02",
+            "newDailyNsoDeathsByDeathDate": 61
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-04-01",
+            "newDailyNsoDeathsByDeathDate": 65
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-31",
+            "newDailyNsoDeathsByDeathDate": 57
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-30",
+            "newDailyNsoDeathsByDeathDate": 51
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-29",
+            "newDailyNsoDeathsByDeathDate": 27
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-28",
+            "newDailyNsoDeathsByDeathDate": 37
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-27",
+            "newDailyNsoDeathsByDeathDate": 23
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-26",
+            "newDailyNsoDeathsByDeathDate": 24
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-25",
+            "newDailyNsoDeathsByDeathDate": 22
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-24",
+            "newDailyNsoDeathsByDeathDate": 12
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-23",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-22",
+            "newDailyNsoDeathsByDeathDate": 6
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-21",
+            "newDailyNsoDeathsByDeathDate": 7
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-20",
+            "newDailyNsoDeathsByDeathDate": 5
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-19",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-18",
+            "newDailyNsoDeathsByDeathDate": 4
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-17",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-16",
+            "newDailyNsoDeathsByDeathDate": 3
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-15",
+            "newDailyNsoDeathsByDeathDate": 1
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-14",
+            "newDailyNsoDeathsByDeathDate": 2
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-13",
+            "newDailyNsoDeathsByDeathDate": 0
+        },
+        {
+            "areaType": "nation",
+            "areaCode": "S92000003",
+            "areaName": "Scotland",
+            "date": "2020-03-12",
+            "newDailyNsoDeathsByDeathDate": 2
+        }
     ]

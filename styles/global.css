@@ -30,8 +30,7 @@
     }
   
     .sidebar-hr {
-      @apply bg-gray-800 border border-gray-800
-      mx-1;
+      @apply bg-gray-800 border border-gray-800 mx-1;
     }
 
     .top-navigation {
@@ -70,10 +69,10 @@
       bg-gray-50
       w-screen
       h-screen
-      overflow-visible;
+      overflow-hidden;
     }
 
     .content-divs {
-      @apply   w-screen h-screen mr-5 ml-16 mt-5 mb-5 bg-white;
+      @apply   w-screen h-screen mr-5 ml-16 mt-5 mb-5 flex;
     }
 }

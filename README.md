@@ -1,16 +1,18 @@
 # Covid UI
 
-### Created using
+### Created with
 [Next.js](https://nextjs.org)
 
-[Tailwind css](https://tailwindcss.com/)
+[Tailwind CSS](https://tailwindcss.com/)
 
 [React Icons](https://react-icons.github.io)
 
-    chart.js
-    react-chartjs-2
-
 [Chart.js]()
+
+[react-chartjs-2]()
+
+[Country Emoji](https://github.com/meeDamian/country-emoji)
+
 
 ## How to run locally 
 

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Line } from 'react-chartjs-2'
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, TimeSeriesScale } from 'chart.js';
+import 'chartjs-adapter-moment';
 
 ChartJS.register(
     CategoryScale,
@@ -9,77 +10,94 @@ ChartJS.register(
     LineElement,
     Title,
     Tooltip,
-    Legend
+    Legend,
+    TimeSeriesScale
 );
 
 export default function LineGraph({ data, tooltipText }) {
 
     const [getData, setData] = useState(data);
-    const [sortedData, setSorted] = useState([]);
+    const [getSortedData, setSorted] = useState([]);
     const [getLabels, setLabels] = useState([]);
     const [getLineData, setLineData] = useState([]);
 
     useEffect(() => {
-        setSorted(getData.sort(function(a,b){
-            return new Date(a.date) - new Date(b.date);
-          }))
+        setSorted(getData.UKSTATS.sort(function (a, b) {
+            return new Date(b.date) - new Date(a.date);
+        }))
         const a = []
-        const b = []  
-        sortedData.forEach(element => {
-            a.push(element.date);
-            b.push(element.cumDailyNsoDeathsByDeathDate);
+        const b = []
+        getSortedData.forEach(element => {
+            a.push(new Date(element.date));
+            b.push(element.newDailyNsoDeathsByDeathDate);
         })
-        setLabels(a);
+        setLabels(a)
         setLineData(b)
+        console.log(getSortedData)
+
+        console.log(getLabels)
+        console.log(getLineData)
     }, [getData])
 
     return (
         <>
-            {getLineData.length > 1 ?
-                <Line data={{
-                    labels: getLabels,
-                    datasets: [
-                        {
-                            label: 'UK deaths',
-                            data: getLineData,
-                        }
-                    ]
-                }}
-                    height={500} width={600}
-                    options={{
-                        maintainAspectRatio: false,
-                        title: {
-                            display: true,
-                            text: 'UK Deaths',
-                        },
-                        ticks: {
-                            autoSkip: true,
-                            maxTicksLimit: 12
-                        }, 
-                        scales: {
-                            x: {
-                              title: {
+            <Line data={{
+                labels: getLabels,
+                datasets: [
+                    {
+                      label: 'UK deaths',
+                      data: getLineData,
+                      borderColor: 'rgb(255, 99, 132)',
+                      backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                    },
+                ]
+            }}
+                
+                options={{
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    title: {
+                        display: true,
+                        text: 'UK Deaths',
+                    },
+                    spanGaps: 2629800000, // milliseconds
+                    responsive: true,
+                    interaction: {
+                        mode: 'nearest',
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            title: {
                                 display: true,
                                 text: 'Year-Month-Day'
-                              }
                             },
-                            y: {
-                              title: {
+                            autoSkip: true,
+                            maxRotation: 0,
+                            major: {
+                                enabled: true
+                            },
+                            ticks: {
                                 display: true,
-                                text: 'Value'
-                              },
-                              min: 10000,
-                              max: 200000,
-                              ticks: {
-                                // forces step size to be 50 units
-                                stepSize: 10000
-                              }
+                                autoSkip: true,
+                                maxTicksLimit: 12
                             }
-                          }
-                    }}
-                />
-                : <p>Hello</p>
-            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Deaths'
+                            },
+                            min: 0,
+                            max: 2000,
+                            ticks: {
+                                stepSize: 100
+                            }
+                        }
+                    }
+                }
+                }
+            />
         </>
     )
 };
