@@ -1,9 +1,8 @@
-import { flag } from 'country-emoji';
 import { useState } from 'react';
 import LineGraph from '../components/charts/line/largeOverview/lineGraph'
 import NationOverview from '../components/datawidgets/homescreenoverview/NationOverview';
 import Layout from '../components/layout/Layout'
-import { cumDailyNsoDeathsByDeathDateUK, newDailyNsoDeathsByDeathDateScotland, newDailyNsoDeathsByDeathDateUK } from '../components/utils/Global';
+import { newDailyNsoDeathsByDeathDateScotland, newDailyNsoDeathsByDeathDateUK } from '../components/utils/Global';
 
 export default function Home({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND }) {
 
