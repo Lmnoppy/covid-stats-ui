@@ -24,9 +24,9 @@ export default function Home({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELA
           </div>
         </div>
 
-        <div className="mt-4 w-full max-h-2/4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+        <div className="mt-4 w-full max-h-2/4 min-h-max grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
 
-          {typeof getData != 'undefined' && typeof getData != 'undefined' && getData.SCOTLAND != null
+          {typeof getData != 'undefined' && typeof getData.SCOTLAND != 'undefined' && getData.SCOTLAND != null
             ? <NationOverview nation={"Scotland"} data={getData.SCOTLAND} />
             : <div className='flex items-center justify-center'>
               <div className='animate-spin rounded-3xl h-12 w-12 border-t-4 border-b-4 border-teal-600 duration-1000' role='status'>
@@ -37,7 +37,7 @@ export default function Home({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELA
             </div>
           }
 
-          {typeof getData != 'undefined' && typeof getData != 'undefined' && getData.WALES != null
+          {typeof getData != 'undefined' && typeof getData.WALES != 'undefined' && getData.WALES != null
             ? <NationOverview nation={"Wales"} data={getData.WALES} />
             : <div className='flex items-center justify-center'>
               <div className='animate-spin rounded-3xl h-12 w-12 border-t-4 border-b-4 border-teal-600 duration-1000' role='status'>
@@ -48,7 +48,7 @@ export default function Home({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELA
             </div>
           }
 
-          {typeof getData != 'undefined' && typeof getData != 'undefined' && getData.ENGLAND != null
+          {typeof getData != 'undefined' && typeof getData.ENGLAND != 'undefined' && getData.ENGLAND != null
             ? <NationOverview nation={"England"} data={getData.ENGLAND} />
             : <div className='flex items-center justify-center'>
               <div className='animate-spin rounded-3xl h-12 w-12 border-t-4 border-b-4 border-teal-600 duration-1000' role='status'>
@@ -59,7 +59,7 @@ export default function Home({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELA
             </div>
           }
 
-          {typeof getData != 'undefined' && typeof getData != 'undefined' && getData.NORTHERN_IRELAND != null
+          {typeof getData != 'undefined' && typeof getData.NORTHERN_IRELAND != 'undefined' && getData.NORTHERN_IRELAND != null
             ? <NationOverview nation={"Northern Ireland"} data={getData.NORTHERN_IRELAND} />
             : <div className='flex items-center justify-center'>
               <div className='animate-spin rounded-3xl h-12 w-12 border-t-4 border-b-4 border-teal-600 duration-1000' role='status'>
@@ -72,9 +72,9 @@ export default function Home({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELA
 
         </div>
 
-        <div className="w-full grid grid-cols-1 mt-4">
+        <div className="w-full grid grid-cols-1 mt-4 mb-20">
           <div className="bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8 ">
-              {typeof getData != 'undefined'
+              {typeof getData != 'undefined' && typeof getData.UKSTATS !='undefined'
                 ?
                 <LineGraph data={getData} tooltipText={'ONS Death stats'} />
                 :
@@ -124,14 +124,14 @@ export async function getStaticProps(context) {
 }
 
 async function getNationResults(areaName) {
-  const res = await fetch(`https://coronavirus.data.gov.uk/api/v2/data?areaType=nation&areaName=` + areaName + `&release=2022-02-18&metric=newDailyNsoDeathsByDeathDate&format=json`);
+  const res = await fetch(`https://coronavirus.data.gov.uk/api/v2/data?areaType=nation&areaName=` + areaName + `&release=2022-02-18&metric=newDailyNsoDeathsByDeathDate&newCasesByPublishDate&format=json`);
   const { body } = await res.json()
   const results = body
   return results;
 }
 
 async function getOverview() {
-  const res = await fetch(`https://coronavirus.data.gov.uk/api/v2/data?areaType=overview&release=2022-02-18&metric=newDailyNsoDeathsByDeathDate&format=json`);
+  const res = await fetch(`https://coronavirus.data.gov.uk/api/v2/data?areaType=overview&release=2022-02-18&metric=newDailyNsoDeathsByDeathDate&newCasesByPublishDate&format=json`);
   const { body } = await res.json()
   const results = body
   return results;

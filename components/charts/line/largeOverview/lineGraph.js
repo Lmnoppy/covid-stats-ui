@@ -33,28 +33,49 @@ export default function LineGraph({ data, tooltipText }) {
         })
         setLabels(a)
         setLineData(b)
-        console.log(getSortedData)
-
-        console.log(getLabels)
-        console.log(getLineData)
     }, [getData])
+
+    const dSets = [
+        {
+            label: 'UK daily deaths',
+            data: getLineData,
+            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+          },
+          {
+            label: 'Scotland daily deaths',
+            data: getLineData,
+            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+          },
+          {
+            label: 'England daily deaths',
+            data: getLineData,
+            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+          },
+          {
+            label: 'Wales daily deaths',
+            data: getLineData,
+            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+          },
+          {
+            label: 'Northern Ireland daily deaths',
+            data: getLineData,
+            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+          },
+        ];
 
     return (
         <>
             <Line data={{
                 labels: getLabels,
-                datasets: [
-                    {
-                      label: 'UK deaths',
-                      data: getLineData,
-                      borderColor: 'rgb(255, 99, 132)',
-                      backgroundColor: 'rgba(255, 99, 132, 0.5)',
-                    },
-                ]
+                datasets: dSets
             }}
-                
+                height={700}
                 options={{
-                    responsive: true,
                     maintainAspectRatio: false,
                     title: {
                         display: true,

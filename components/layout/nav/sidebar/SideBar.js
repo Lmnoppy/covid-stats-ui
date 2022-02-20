@@ -15,8 +15,11 @@ export default function SideBar() {
             </div>
             
             <Divider />
-            <SideBarIcon icon={<MdQueryStats size="16" />} text={'💡 tooltip: Covid Stats'}/>
-            <SideBarIcon icon={<MdList size="16" />} text={'💡 tooltip: Covid symptoms'}/>
+            <SideBarIcon icon={<MdQueryStats size="16" />} text={'💡 tooltip: Covid stats'}/>
+            <SideBarIcon icon={<MdList size="16" />} text={'💡 tooltip: Data grid'}/>
+            <SideBarIcon icon={<MdMenuBook size="16" />} text={'💡 tooltip: Symptons'}/>
+            <SideBarIcon icon={<MdMenuBook size="16" />} text={'💡 tooltip: Variations'}/>
+            <SideBarIcon icon={<MdMenuBook size="16" />} text={'💡 tooltip: Vacines'}/>
             <SideBarIcon icon={<MdMenuBook size="16" />} text={'💡 tooltip: Blog posts'}/>
             <SideBarIcon icon={<MdHelp size="16" />} text={'💡 tooltip: Help'}/>
 

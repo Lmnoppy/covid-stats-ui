@@ -1,6 +1,8 @@
 import { parseISO, format } from 'date-fns'
 
-export default function Date({ dateString }) {
-  const date = parseISO(dateString)
-  return <time dateTime={dateString}>{format(date, 'LLLL d, yyyy')}</time>
+export function sortByDateMostRecent(data) {
+  const sortedDate = data.sort(function (a, b) {
+    return new Date(b.date) - new Date(a.date);
+  })
+  return sortedDate;
 }
