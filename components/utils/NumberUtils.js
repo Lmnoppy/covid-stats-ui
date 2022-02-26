@@ -3,9 +3,8 @@ export function percentageChange(latest, previous){
 }
 
 export function hasValue(value){
-    if(typeof value === 'undefined'){
-        return "No Data"
+    if(typeof value === 'undefined' || value === null || value === ''){
+        return 'No Data'
     }
-
     return value;
 }
