@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { sortByDateMostRecent } from "../../utils/Date";
-import Divider from "../../utils/Divider";
+import Divider from "../../Divider";
 import { percentageChange, hasValue } from "../../utils/NumberUtils";
 
 export default function NationOverview({ nation, data }) {
