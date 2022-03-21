@@ -22,17 +22,20 @@ export default function LineGraph({ data, tooltipText }) {
     const [getLineData, setLineData] = useState([]);
 
     useEffect(() => {
-        setSorted(getData.UKSTATS.sort(function (a, b) {
+        setData(data)
+        setSorted(getData.sort(function (a, b) {
             return new Date(b.date) - new Date(a.date);
         }))
         const a = []
         const b = []
         getSortedData.forEach(element => {
             a.push(new Date(element.date));
-            b.push(element.newDailyNsoDeathsByDeathDate);
+            b.push(element.newCasesByPublishDate);
         })
         setLabels(a)
         setLineData(b)
+        console.table(getSortedData);
+        console.table(getLineData);
     }, [getData])
 
     const dSets = [
@@ -79,7 +82,7 @@ export default function LineGraph({ data, tooltipText }) {
                     maintainAspectRatio: false,
                     title: {
                         display: true,
-                        text: 'UK Deaths',
+                        text: 'UK Cases',
                     },
                     spanGaps: 2629800000, // milliseconds
                     responsive: true,

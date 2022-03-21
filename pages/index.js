@@ -1,12 +1,49 @@
-import { useState } from 'react';
-import LineGraph from '../components/charts/line/largeOverview/lineGraph'
+import moment from 'moment';
+import LineGraph from '../components/charts/line/largeOverview/LineGraph'
 import NationOverview from '../components/datawidgets/homescreenoverview/NationOverview';
 import Layout from '../components/layout/Layout'
+import getCovidData from '../components/utils/GetCovidData';
 
-export default function Home({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND }) {
+export async function getServerSideProps() {
+  try {
+    const
+      date = moment().format('YYYY-MM-DD'),
+      structure = {
+        date: 'date',
+        newCasesByPublishDate: 'newCasesByPublishDate',
+        cumCasesByPublishDate: 'cumCasesByPublishDate',
+      },
+      
+      //THIS IS BBBBBAAAAADDDD need to make a back end so that i can make one rest call with all data, cache it and then send back a correct object in one API call. 
+      SCOTLAND_TODAY = await getCovidData('nation', 'scotland', date, structure),
+      SCOTLAND_PREVIOUS = await getCovidData('nation', 'scotland', moment().subtract(1, 'days').format('YYYY-MM-DD'), structure),
+      ENGLAND_TODAY = await getCovidData('nation', 'england', date, structure),
+      ENGLAND_PREVIOUS = await getCovidData('nation', 'england', moment().subtract(1, 'days').format('YYYY-MM-DD'), structure),
+      WALES_TODAY = await getCovidData('nation', 'wales', date, structure),
+      WALES_PREVIOUS = await getCovidData('nation', 'wales', moment().subtract(1, 'days').format('YYYY-MM-DD'), structure),
+      NORTHERN_IRELAND_TODAY = await getCovidData('nation', 'northern ireland', date, structure),
+      NORTHERN_IRELAND_PREVIOUS = await getCovidData('nation', 'northern ireland', moment().subtract(1, 'days').format('YYYY-MM-DD'), structure),
 
-  const [getData, setData] = useState({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND });
+      SCOTLAND = {today: SCOTLAND_TODAY, previous: SCOTLAND_PREVIOUS},
+      ENGLAND = {today: ENGLAND_TODAY, previous: ENGLAND_PREVIOUS},
+      WALES = {today: WALES_TODAY, previous: WALES_PREVIOUS},
+      NORTHERN_IRELAND = {today: NORTHERN_IRELAND_TODAY, previous: NORTHERN_IRELAND_PREVIOUS}
+      ;
+    return {
+      props: { SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND },
+    };
+  } catch (err) {
+    console.error(err);
+    return {
+      //Todo: handel errors.  
+      notFound: true
+    };
+  }
+}
 
+//<LineGraph data={UKSTATS} tooltipText={'ONS Death stats'} />
+
+export default function Home({ SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND }) {
   return (
     <Layout>
 
@@ -25,66 +62,19 @@ export default function Home({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELA
 
         <div className='mt-4 w-full max-h-2/4 min-h-max grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4'>
 
-          {typeof getData != 'undefined' && typeof getData.SCOTLAND != 'undefined' && getData.SCOTLAND != null
-            ? <NationOverview nation={'Scotland'} data={getData.SCOTLAND} />
-            : <div className='flex items-center justify-center'>
-              <div className='animate-spin rounded-3xl h-12 w-12 border-t-4 border-b-4 border-teal-600 duration-1000' role='status'>
-                <span className='visually-hidden'></span>
-              </div>
+          <NationOverview nation={'Scotland'} data={SCOTLAND} />
 
-              <span className='block'>Loading...</span>
-            </div>
-          }
+          <NationOverview nation={'Wales'} data={WALES} />
 
-          {typeof getData != 'undefined' && typeof getData.WALES != 'undefined' && getData.WALES != null
-            ? <NationOverview nation={'Wales'} data={getData.WALES} />
-            : <div className='flex items-center justify-center'>
-              <div className='animate-spin rounded-3xl h-12 w-12 border-t-4 border-b-4 border-teal-600 duration-1000' role='status'>
-                <span className='visually-hidden'></span>
-              </div>
+          <NationOverview nation={'England'} data={ENGLAND} />
 
-              <span className='block'>Loading...</span>
-            </div>
-          }
-
-          {typeof getData != 'undefined' && typeof getData.ENGLAND != 'undefined' && getData.ENGLAND != null
-            ? <NationOverview nation={'England'} data={getData.ENGLAND} />
-            : <div className='flex items-center justify-center'>
-              <div className='animate-spin rounded-3xl h-12 w-12 border-t-4 border-b-4 border-teal-600 duration-1000' role='status'>
-                <span className='visually-hidden'></span>
-              </div>
-
-              <span className='block'>Loading...</span>
-            </div>
-          }
-
-          {typeof getData != 'undefined' && typeof getData.NORTHERN_IRELAND != 'undefined' && getData.NORTHERN_IRELAND != null
-            ? <NationOverview nation={'Northern Ireland'} data={getData.NORTHERN_IRELAND} />
-            : <div className='flex items-center justify-center'>
-              <div className='animate-spin rounded-3xl h-12 w-12 border-t-4 border-b-4 border-teal-600 duration-1000' role='status'>
-                <span className='visually-hidden'></span>
-              </div>
-
-              <span className='block'>Loading...</span>
-            </div>
-          }
+          <NationOverview nation={'Northern Ireland'} data={NORTHERN_IRELAND} />
 
         </div>
 
         <div className='w-full grid grid-cols-1 mt-4 mb-20'>
           <div className='bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8 '>
-            {typeof getData != 'undefined' && typeof getData.UKSTATS != 'undefined'
-              ?
-              <LineGraph data={getData} tooltipText={'ONS Death stats'} />
-              :
-              <div className='flex items-center justify-center'>
-                <div className='animate-spin rounded-3xl h-12 w-12 border-t-4 border-b-4 border-teal-600 duration-1000' role='status'>
-                  <span className='visually-hidden'></span>
-                </div>
-
-                <span className='block'>Loading...</span>
-              </div>
-            }
+            
           </div>
         </div>
 
@@ -92,62 +82,4 @@ export default function Home({ UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELA
 
     </Layout >
   )
-}
-
-export async function getServerSideProps(context) {
-  try {
-    const 
-    UKSTATS = await getCovidData('overview', 'overview'),
-    SCOTLAND = await getCovidData('nation', 'scotland'),
-    ENGLAND = await getCovidData('nation', 'england'),
-    WALES = await getCovidData('nation', 'wales'),
-    NORTHERN_IRELAND = await getCovidData('nation', 'northern ireland');
-    return {
-      props: { UKSTATS, SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND },
-    };
-  } catch (err) {
-    console.error(err);
-    return {
-      notFound: true
-    };
-  }
-}
-
-function buildURL(areaType, areaName) {
-  let filters
-  const structure = {
-    'date': 'date',
-    'newCasesByPublishDate': 'newCasesByPublishDate',
-    'newDailyNsoDeathsByDeathDate': 'newDailyNsoDeathsByDeathDate',
-    'cumCasesByPublishDate': 'cumCasesByPublishDate',
-    'cumDailyNsoDeathsByDeathDate': 'cumDailyNsoDeathsByDeathDate',
-    'cumPeopleVaccinatedFirstDoseByPublishDate': 'cumPeopleVaccinatedFirstDoseByPublishDate',
-    'cumPeopleVaccinatedSecondDoseByPublishDate': 'cumPeopleVaccinatedSecondDoseByPublishDate'
-  };
-
-  if (areaType === 'overview') {
-    filters = [
-      `areaType=${areaType}`,
-    ]
-  }
-
-  if (areaType === 'nation') {
-    filters = [
-      `areaType=${areaType}`,
-      `areaName=${areaName}`
-    ]
-  }
-
-  const apiParams = `filters=${filters.join(';')}&structure=${JSON.stringify(structure)}`, 
-  encodedParams = encodeURI(apiParams),
-  url = 'https://api.coronavirus.data.gov.uk/v1/data?' + encodedParams;
-  console.log(`complete URL is: ${url}`)
-  return url
-}
-
-async function getCovidData(areaType, areaName) {
-  const res = await fetch(buildURL(areaType, areaName));
-  const { data } = await res.json()
-  const results = data
-  return results;
 }
