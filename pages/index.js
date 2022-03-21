@@ -1,6 +1,6 @@
 import moment from 'moment';
 import LineGraph from '../components/charts/line/largeOverview/LineGraph'
-import NationOverview from '../components/datawidgets/homescreenoverview/NationOverview';
+import NationCasesWidget from '../components/datawidgets/NationCasesWidget';
 import Layout from '../components/layout/Layout'
 import getCovidData from '../components/utils/GetCovidData';
 
@@ -62,13 +62,13 @@ export default function Home({ SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND }) {
 
         <div className='mt-4 w-full max-h-2/4 min-h-max grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4'>
 
-          <NationOverview nation={'Scotland'} data={SCOTLAND} />
+          <NationCasesWidget nation={'Scotland'} data={SCOTLAND} />
 
-          <NationOverview nation={'Wales'} data={WALES} />
+          <NationCasesWidget nation={'Wales'} data={WALES} />
 
-          <NationOverview nation={'England'} data={ENGLAND} />
+          <NationCasesWidget nation={'England'} data={ENGLAND} />
 
-          <NationOverview nation={'Northern Ireland'} data={NORTHERN_IRELAND} />
+          <NationCasesWidget nation={'Northern Ireland'} data={NORTHERN_IRELAND} />
 
         </div>
 

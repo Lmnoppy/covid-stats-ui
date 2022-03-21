@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Divider from "../../Divider";
-import { percentageChange, hasValue } from "../../utils/NumberUtils";
+import Divider from "../Divider";
+import { percentageChange, hasValue } from "../utils/NumberUtils";
 
-export default function NationOverview({ nation, data }) {
+export default function NationCasesWidget({ nation, data }) {
 
     const [getData, setData] = useState(data);
 
