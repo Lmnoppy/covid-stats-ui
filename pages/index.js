@@ -29,19 +29,19 @@ export async function getServerSideProps() {
       WALES = {today: WALES_TODAY, previous: WALES_PREVIOUS},
       NORTHERN_IRELAND = {today: NORTHERN_IRELAND_TODAY, previous: NORTHERN_IRELAND_PREVIOUS}
       ;
+      console.log(SCOTLAND_PREVIOUS)
     return {
       props: { SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND },
     };
   } catch (err) {
     console.error(err);
     return {
-      //Todo: handel errors.  
+      //Todo: handle errors.  
       notFound: true
     };
   }
 }
 
-//<LineGraph data={UKSTATS} tooltipText={'ONS Death stats'} />
 
 export default function Home({ SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND }) {
   return (
@@ -51,12 +51,6 @@ export default function Home({ SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND }) {
         <div className='w-full grid grid-cols-1'>
           <div className='bg-red-100 shadow rounded-lg py-5 px-6 text-base text-red-700' role='alert'>
             <p><b> WARNING: </b> Information on this website is not medical advice. Please speak to a medical professional if you have any concerns about your health. </p>
-          </div>
-        </div>
-
-        <div className='w-full grid grid-cols-1 mt-4'>
-          <div className='bg-blue-100 shadow rounded-lg py-5 px-6 text-base text-blue-700' role='alert'>
-            <p><b> Information: </b> Death data on this site is roughly 11 days late, this is to allow registrations of deaths with the office of national statistics </p>
           </div>
         </div>
 
@@ -74,7 +68,7 @@ export default function Home({ SCOTLAND, ENGLAND, WALES, NORTHERN_IRELAND }) {
 
         <div className='w-full grid grid-cols-1 mt-4 mb-20'>
           <div className='bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8 '>
-            
+          //TODO: Line LineGraph
           </div>
         </div>
 

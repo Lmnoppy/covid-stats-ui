@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Divider from "../Divider";
 import { percentageChange, hasValue } from "../utils/NumberUtils";
+import { GoTriangleDown, GoTriangleUp } from 'react-icons/go';
 
 export default function NationCasesWidget({ nation, data }) {
 
@@ -29,20 +30,27 @@ export default function NationCasesWidget({ nation, data }) {
                 </div>
 
                 <div className="ml-5 w-0 flex items-center justify-end flex-1 text-green-500 text-base font-bold">
-                    {
-                        getData.previous[0].newCasesByPublishDate === 0 ?
-                            <span className="text-gray-500">No change</span>
-                            :
-                            getData.today[0].newCasesByPublishDate === 0 ?
-                                <span className="">No data</span>
+                    <>
+                        {
+                            getData.previous[0].newCasesByPublishDate === 0 ?
+                                <span className="text-gray-500">No change</span>
                                 :
-                                getData.previous[0].newCasesByPublishDate === getData.today[0].newCasesByPublishDate ?
-                                    <span className="">No change</span> :
-                                    percentageChange(getData.today[0].newCasesByPublishDate, getData.previous[0].newCasesByPublishDate) < 0 ?
-                                        <span className="text-green-600">{percentageChange(getData.today[0].newCasesByPublishDate, getData.previous[0].newCasesByPublishDate)}</span>
-                                        :
-                                        <span className="text-red-600">{percentageChange(getData.today[0].newCasesByPublishDate, getData.previous[0].newCasesByPublishDate)}</span>
-                    }
+                                getData.today[0].newCasesByPublishDate === 0 ?
+                                    <span className="">No data</span>
+                                    :
+                                    getData.previous[0].newCasesByPublishDate === getData.today[0].newCasesByPublishDate ?
+                                        <span className="">No change</span> :
+                                        percentageChange(getData.today[0].newCasesByPublishDate, getData.previous[0].newCasesByPublishDate) < 0 ?
+                                            <span className="text-green-400 flex">{percentageChange(getData.today[0].newCasesByPublishDate, getData.previous[0].newCasesByPublishDate).toFixed(2)}% 
+                                                <GoTriangleDown className="text-green-600 flex" size="16" />
+                                            </span>
+                                            :
+                                            <span className="text-red-600 flex">{percentageChange(getData.today[0].newCasesByPublishDate, getData.previous[0].newCasesByPublishDate).toFixed(2)}%
+                                                <GoTriangleUp className="text-red-600 flex" size="16" />
+                                            </span>
+
+                        }
+                    </>
                 </div>
             </div>
 
@@ -53,20 +61,11 @@ export default function NationCasesWidget({ nation, data }) {
                 </div>
 
                 <div className="ml-5 w-0 flex items-center justify-end flex-1 text-green-500 text-base font-bold">
-                    {
-                        getData.previous[0].cumCasesByPublishDate === 0 ?
-                            <span className="text-gray-500">No change</span>
-                            :
-                            getData.today[0].cumCasesByPublishDate === 0 ?
-                                <span className="">No data</span>
-                                :
-                                getData.previous[0].cumCasesByPublishDate === getData.today[0].cumCasesByPublishDate ?
-                                    <span className="">No change</span> :
-                                    percentageChange(getData.today[0].cumCasesByPublishDate, getData.previous[0].cumCasesByPublishDate) < 0 ?
-                                        <span className="text-green-600">{percentageChange(getData.today[0].cumCasesByPublishDate, getData.previous[0].cumCasesByPublishDate)}</span>
-                                        :
-                                        <span className="text-red-600">{percentageChange(getData.today[0].cumCasesByPublishDate, getData.previous[0].cumCasesByPublishDate)}</span>
-                    }
+
+                    <span className="text-red-600 flex">{percentageChange(getData.today[0].cumCasesByPublishDate, getData.previous[0].cumCasesByPublishDate).toFixed(2)}%
+                        <GoTriangleUp className="text-red-600 flex" size="16" />
+                    </span>
+
                 </div>
             </div>
 
